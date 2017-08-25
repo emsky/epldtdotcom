@@ -308,7 +308,8 @@ Learn more about [microformats](http://microformats.org/wiki/hcard).
 * Using SASS/SCSS as our preprocessor, we divide up our stylesheets into the following general structure.
 
 
-    ![General front-end folder struct](https://lh3.googleusercontent.com/-VOWW5OzH9h4/WZ-r7MH6h7I/AAAAAAAAAQo/VtlEN8fKrwsEDJ7eDEmBbwdqs2SmC7K-ACE0YBhgL/s0/public_html.png "public_html.png")
+	<img src="https://lh3.googleusercontent.com/-VOWW5OzH9h4/WZ-r7MH6h7I/AAAAAAAAAQo/VtlEN8fKrwsEDJ7eDEmBbwdqs2SmC7K-ACE0YBhgL/s0/public_html.png" width="480"/>
+
 
 
 
