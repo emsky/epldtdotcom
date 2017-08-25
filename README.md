@@ -1,6 +1,6 @@
-## ePLDT Front-End Development Guidelines
+# ePLDT Front-End Development Guidelines
 
-### Introduction
+## Introduction
 
 This document contains standards and guidelines for websites and applications built for and by the Applications Development Team of ePLDT, and any project-based personnel. It’s purpose is for code consistency, scalability and establishing our branded best practices. By maintaining consistency in coding styles and conventions, we can produce better applications, reduce code maintenance and reduce risk of breakage.
 
@@ -10,7 +10,7 @@ The contents of this document generally rest on the three major pillars of front
 * Markup should be well-structured, semantically correct and generally valid
 * Javascript should progressively enhance the experience
 
-### General
+## General
 
 * We encourage code readability over file-size. Apply adequate white-spacing and provide relevant comments.
 
@@ -40,7 +40,7 @@ The contents of this document generally rest on the three major pillars of front
 
 * Weed out unused styles.
 
-### HTML5 and Mark-up
+## HTML5 and Mark-up
 
 HTML markup defines the structure and outline of a document and content. It’s purpose is not to define the look and feel of the content on a page beyond basic concepts such as headings, paragraphs and lists. The presentation and style attributes of the HTML should be contained in style sheets.
 
@@ -54,6 +54,7 @@ HTML markup defines the structure and outline of a document and content. It’s 
             <span class="type">home</span>:
             <span class="value">+1.415.555.1212</span>
         </span>
+        
 If you were to navigate to a page that uses this, you would notice that a program like Skype will easily detect what numbers on the page are phone numbers. Mobile Safari does something similar on iOS devices.
 
 Learn more about [microformats](http://microformats.org/wiki/hcard).
@@ -146,7 +147,7 @@ Learn more about [microformats](http://microformats.org/wiki/hcard).
 
 * Use tables for tabular data only. The only exception is when composing HTML emails, in which a table is almost the only thing supported by soul crushing email clients.
 
-###Accessibility (WAI-ARIA)
+## Accessibility (WAI-ARIA)
 
 * Use WAI-ARIA landmark roles to help screen reader users understand and navigate a page.
 
@@ -161,7 +162,7 @@ Learn more about [microformats](http://microformats.org/wiki/hcard).
 * Keep the HTML5 feature accessibility support in mind. www.html5accessibility.com
 
 
-### Performance
+## Performance
 * Hardware-accelerated CSS. Leverage CSS transitions and transforms for optimal quality. David Walsh has an excellent article on [triggering hardware acceleration](https://davidwalsh.name/translate3d).
 
 * Use `requestAnimationFrame()` to optimize animations into a single reflow/repaint cycle and synchronize JS-based animations with CSS and SVG animations. This reduces CPU, GPU and memory usage, and maximizes battery life for most laptops. See also: [requestAnimationFrame for Smart Animations](https://www.paulirish.com/2011/requestanimationframe-for-smart-animating/)
@@ -202,7 +203,7 @@ Learn more about [microformats](http://microformats.org/wiki/hcard).
 
 * Minimize the use of iframes.
 
-### Cookies
+## Cookies
 
 * Eliminate unnecessary cookies.
 
@@ -216,7 +217,7 @@ Learn more about [microformats](http://microformats.org/wiki/hcard).
 
 * When repeating single DOM node injections, make use of `documentFragment` when possible. This improves memory efficiency and minimize browser reflow. See Javascript.
 
-### Optimizing images
+## Optimizing images
 
 * After a designer is done with creating the images for your web page, there are still some things you can try before you FTP those images to your web server.
 
@@ -272,14 +273,14 @@ Learn more about [microformats](http://microformats.org/wiki/hcard).
     Hopefully, browsers will not have this problem in the future. Unfortunately, there is no such clause for `<script src="">` and `<link href="">`. Maybe there is still time to make that adjustment to ensure browsers don't accidentally implement this behavior.
 
 
-###Maintainability and Structure
+## Maintainability and Structure
 
 * Use SMACSS (Scalable and Modular Architecture for CSS) to write your stylesheets. Learn more about SMACSS [here](https://smacss.com/).
 
 * Using SASS/SCSS as our preprocessor, we divide up our stylesheets into the following general structure.
 
 
-###Shame.SCSS
+## Shame.SCSS
 
 We all know that sometimes we do need to use quick fixes to release out on time, but that code often makes us feel ashamed.
 
@@ -323,7 +324,7 @@ To make full use of this solution, we recommend all developers to document what 
 
 
 
-###SCSS/CSS
+### SCSS/CSS
 
 * Selectors must be in lowercase.
 
@@ -360,7 +361,7 @@ To make full use of this solution, we recommend all developers to document what 
 
 * Nest selectors only when necessary.
 
-### Namespaces
+## Namespaces
 
 > Our standard naming conventions may be compromised when using other
 > frameworks that rely on a different convention.
@@ -406,7 +407,7 @@ This is unusual, but a potentially very useful namespace for our QA team, especi
 
 With this, we can ensure that any UI refactoring doesn't affect the QA team's hooks.
 
-### Javascript
+## Javascript
 
 * Use camel case to name variables. Boolean variables should start with ‘is’.
 
@@ -583,7 +584,7 @@ With this, we can ensure that any UI refactoring doesn't affect the QA team's ho
 		$myList.html(list);
 
 		// EVEN FASTER
-		var $myList = $('#list'), 
+		var $myList = $('#list'),
 		array = [];
 		for(var i = 0; i < 10000; i++){
 			array[i] = '<li>' + i + '</li>';
@@ -676,7 +677,7 @@ With this, we can ensure that any UI refactoring doesn't affect the QA team's ho
 		});
 
 ---
-### Resources
+## Resources
 
 ##### Workspace
 *  \** *IDE* \** **Atom** &mdash; https://atom.io/
@@ -699,7 +700,7 @@ With this, we can ensure that any UI refactoring doesn't affect the QA team's ho
 * **Complete List of AJAX Events** &mdash; http://api.jquery.com/Ajax_Events/
 
 ---
-### Sources
+## Sources
 
 **Roberts, Harry**. (2017, May 20). *CSS Guidelines: High-level advice and guidelines for writing sane, manageable, scalable CSS*. Retrieved from https://cssguidelin.es/
 
