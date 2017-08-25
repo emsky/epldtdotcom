@@ -1,12 +1,34 @@
 # ePLDT Front-End Development Guidelines
 
 ## Table of Contents
-1. Introduction
-2. General
-3. HTML5 and Markup
-4. Accessibility
-5. Performance
-6.
+1. [Introduction](#introduction)
+2. [General](#general)
+3. [HTML5 and Markup](#html5-and-markup)
+4. [Accessibility](#accessibility)
+5. [Performance](#performance)
+6. [Cookies](#cookies)
+7. [Optimizing Images](#optimizing-images)
+8. [Maintainability and Structure](#maintainability-and-structure)
+9. [Shame SCSS](#shame-css)
+10. [SCSS and CSS](#scss-and-css)
+11. [Namespaces](#namespaces)
+  1. [Layout Namespaces](#layout-namespaces-l)
+  2. [Component Namespaces](#component-namespaces-c)
+  3. [Module Namespaces](#module-namespaces-m)
+  4. [Helper Namespaces](#helper-namespaces-h)
+  5. [Theme Namespaces](#theme-namespaces-t)
+  6. [State Namespaces](#state-namespaces-s)
+  7. [Javascript Namespaces](#javascript-namespaces-j)
+  8. [QA Namespaces](#qa-namespaces-q)
+12. [Javascript](#javascript)
+13. [jQuery](#jquery)
+14. [Resources](#resources)
+  1. [Workspace](#workspace)
+  2. [Frameworks and Plugins](#frameworks-and-plugins)
+  3. [Optimization](#optimization)
+  4. [References](#references)
+15. [Sources](#sources)
+
 
 ## Introduction
 
@@ -292,7 +314,7 @@ Learn more about [microformats](http://microformats.org/wiki/hcard).
 
 
 
-## Shame.SCSS
+## Shame SCSS
 
 We all know that sometimes we do need to use quick fixes to release out on time, but that code often makes us feel ashamed.
 
@@ -336,7 +358,7 @@ To make full use of this solution, we recommend all developers to document what 
 
 
 
-### SCSS/CSS
+### SCSS and CSS
 
 * Selectors must be in lowercase.
 
