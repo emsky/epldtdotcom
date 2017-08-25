@@ -1,5 +1,13 @@
 # ePLDT Front-End Development Guidelines
 
+## Table of Contents
+1. Introduction
+2. General
+3. HTML5 and Markup
+4. Accessibility
+5. Performance
+6.
+
 ## Introduction
 
 This document contains standards and guidelines for websites and applications built for and by the Applications Development Team of ePLDT, and any project-based personnel. It’s purpose is for code consistency, scalability and establishing our branded best practices. By maintaining consistency in coding styles and conventions, we can produce better applications, reduce code maintenance and reduce risk of breakage.
@@ -54,7 +62,7 @@ HTML markup defines the structure and outline of a document and content. It’s 
             <span class="type">home</span>:
             <span class="value">+1.415.555.1212</span>
         </span>
-        
+
 If you were to navigate to a page that uses this, you would notice that a program like Skype will easily detect what numbers on the page are phone numbers. Mobile Safari does something similar on iOS devices.
 
 Learn more about [microformats](http://microformats.org/wiki/hcard).
@@ -280,6 +288,10 @@ Learn more about [microformats](http://microformats.org/wiki/hcard).
 * Using SASS/SCSS as our preprocessor, we divide up our stylesheets into the following general structure.
 
 
+    ![General front-end folder struct](https://lh3.googleusercontent.com/-VOWW5OzH9h4/WZ-r7MH6h7I/AAAAAAAAAQo/VtlEN8fKrwsEDJ7eDEmBbwdqs2SmC7K-ACE0YBhgL/s0/public_html.png "public_html.png")
+
+
+
 ## Shame.SCSS
 
 We all know that sometimes we do need to use quick fixes to release out on time, but that code often makes us feel ashamed.
@@ -426,7 +438,8 @@ With this, we can ensure that any UI refactoring doesn't affect the QA team's ho
         /* BETTER */
         var a = 'Data', b, c = 'Extradata';
 
-* Don’t change variable types after initial declaration.
+
+* Don't change variable types after initial declaration.
 
 	    // Don’t do this
 	    var myString = ‘This is a string’;
