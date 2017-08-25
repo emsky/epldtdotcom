@@ -583,7 +583,7 @@ With this, we can ensure that any UI refactoring doesn't affect the QA team's ho
 		$myList.html(list);
 
 		// EVEN FASTER
-		var $myList = $('#list'),
+		var $myList = $('#list'), 
 		array = [];
 		for(var i = 0; i < 10000; i++){
 			array[i] = '<li>' + i + '</li>';
