@@ -1,0 +1,120 @@
+@import 'font-awesome/font-awesome';
+
+/* GRAPHIK FONT */
+
+@font-face {
+    
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-BoldItalic.eot');
+    src: url('../fonts/Graphik-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Graphik-BoldItalic.woff') format('woff'),
+        url('../fonts/Graphik-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+@font-face {
+    
+	font-family: 'Graphik';
+	src: url('../fonts/Graphik-Light.eot');
+	src: url('../fonts/Graphik-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Graphik-Light.woff') format('woff'),
+		url('../fonts/Graphik-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+    
+}
+
+@font-face {
+    
+	font-family: 'Graphik';
+	src: url('../fonts/Graphik-LightItalic.eot');
+	src: url('../fonts/Graphik-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Graphik-LightItalic.woff') format('woff'),
+		url('../fonts/Graphik-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+    
+}
+
+@font-face {
+	font-family: 'Graphik';
+	src: url('../fonts/Graphik-Regular.eot');
+	src: url('../fonts/Graphik-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Graphik-Regular.woff') format('woff'),
+		url('../fonts/Graphik-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    
+	font-family: 'Graphik';
+	src: url('../fonts/Graphik-Bold.eot');
+	src: url('../fonts/Graphik-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Graphik-Bold.woff') format('woff'),
+		url('../fonts/Graphik-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+    
+}
+
+@font-face {
+    
+	font-family: 'Graphik';
+	src: url('../fonts/Graphik-RegularItalic.eot');
+	src: url('../fonts/Graphik-RegularItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Graphik-RegularItalic.woff') format('woff'),
+		url('../fonts/Graphik-RegularItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+    
+}
+
+@font-face {
+    
+	font-family: 'Graphik';
+	src: url('../fonts/Graphik-Thin.eot');
+	src: url('../fonts/Graphik-Thin.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Graphik-Thin.woff') format('woff'),
+		url('../fonts/Graphik-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+    
+}
+
+@font-face {
+    
+	font-family: 'Graphik';
+	src: url('../fonts/Graphik-Medium.eot');
+	src: url('../fonts/Graphik-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Graphik-Medium.woff') format('woff'),
+		url('../fonts/Graphik-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+    
+}
+
+@font-face {
+    
+	font-family: 'Graphik';
+	src: url('../fonts/Graphik-MediumItalic.eot');
+	src: url('../fonts/Graphik-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Graphik-MediumItalic.woff') format('woff'),
+		url('../fonts/Graphik-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+    
+}
+
+@font-face {
+    
+	font-family: 'Graphik';
+	src: url('../fonts/Graphik-ThinItalic.eot');
+	src: url('../fonts/Graphik-ThinItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Graphik-ThinItalic.woff') format('woff'),
+		url('../fonts/Graphik-ThinItalic.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}

@@ -1,0 +1,254 @@
+body {
+
+    .l-userbar {
+    
+        background: $primary;
+        
+        .brand {
+
+            a {
+
+                display: block;
+                line-height: 100px;
+                padding: 0;
+
+                &:hover {
+
+                    opacity: 0.8;
+
+                }
+
+            }
+
+        }
+        
+        nav {
+
+            float: right;
+
+            .menu {
+
+                li {
+
+                    a {
+
+                        color: rgba($white,1);
+                        font-family: 'Graphik'; 
+                        font-weight: bold;
+                        line-height: 100px;
+                        padding-bottom: 0;
+                        padding-top: 0;
+
+                        &:hover,
+                        &:visited {
+
+                            color: rgba($white,0.8);
+
+                        } 
+
+                    }
+
+                    .submenu {
+
+                        li {
+
+                            a {
+
+                                border-bottom: rgba($white,0.1) 1px solid;
+
+                                &:hover,
+                                &:visited {
+                                    
+                                    background: rgba($black,0.9);
+                                    color: rgba($white,0.8);
+
+                                } 
+
+                            }
+
+                        }
+
+                    }
+
+                    .menu {
+
+                        li {
+
+                            a {
+
+                                background: #333333;
+                                line-height: 50px;
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+        
+        .is-dropdown-submenu {
+
+            border: rgba($white,0.6) 1px solid;
+
+        }
+
+        .dropdown.menu > li.opens-right > .is-dropdown-submenu {
+
+            z-index: 4;
+
+        }
+
+        .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+
+            border-color: rgba($white,0.6) transparent transparent;
+
+        }
+    
+    }
+
+}
+
+
+
+/** 
+*
+* Medium only 
+*
+*/
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    
+    body {
+        
+        .l-userbar--mobile {
+
+            background: $primary;
+            position: fixed;
+            text-align: center;
+            top: 0;
+            width: 100%;
+            z-index: 3;
+
+            a {
+
+                color: $white;
+                line-height: 60px;
+                padding: 0;
+
+                &:hover {
+
+                    color: rgba($white,0.8);
+
+                }
+
+            }
+
+        }
+        
+    }
+    
+}
+
+
+
+/** 
+*
+* Small only 
+*
+*/
+
+@media screen and (max-width: 39.9375em) {
+    
+    body {
+        
+        .off-canvas {
+            
+            background: $white;
+            
+            .off-canvas-bar {
+                
+                margin-bottom: 0.625rem;
+                padding: 1.000rem;
+                
+                a {
+                    
+                    color: $primary;
+                    
+                    &:hover {
+                        
+                        color: $primary-light;
+                        
+                    }
+                    
+                }
+                
+            }
+            
+        }
+        
+        .drilldown {
+            
+            a {
+                
+                &:hover {
+                    
+                    background: $gray;
+                    
+                }
+                
+            }
+            
+        }
+        
+        .drilldown .is-drilldown-submenu-parent > a::after {
+
+            border-color: transparent transparent transparent $border-color;
+
+        }
+        
+        .drilldown .js-drilldown-back > a::before {
+            
+            border-color: transparent $border-color transparent transparent;
+            
+        }
+        
+        .position-left.is-transition-push {
+
+            -webkit-box-shadow: none;
+            box-shadow: none;
+
+        }
+        
+        .l-userbar--mobile {
+            
+            background: $primary;
+            position: fixed;
+            text-align: center;
+            top: 0;
+            width: 100%;
+            z-index: 3;
+            
+            a {
+                
+                color: $white;
+                line-height: 60px;
+                padding: 0;
+                
+                &:hover {
+                    
+                    color: rgba($white,0.8);
+                    
+                }
+                
+            }
+            
+        }
+        
+    }
+    
+}

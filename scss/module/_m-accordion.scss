@@ -1,0 +1,42 @@
+/**
+*
+* ACCORDION
+*
+* Accordions are elements that help you organize and navigate multiple documents in a single container. 
+* They can be used for switching between items in the container.
+*
+*/
+
+body {
+    
+    .accordion-clean {
+        
+        .tabs-title {
+            
+            display: inline-block;
+            float: none;
+            
+        }
+        
+        .tabs-title {
+            
+            a {
+                
+                color: $font-body-color;
+                font-size: 0.875rem;
+                
+            }
+            
+        }
+        
+        .tabs-title > a:focus, 
+        .tabs-title > a[aria-selected="true"] {
+            
+            background: none;
+            border-bottom: $primary-light 3px solid;
+            
+        }
+        
+    }
+
+}

@@ -1,0 +1,30 @@
+body {
+
+    .button {
+
+        font-family: $font-family-graphik;
+        font-weight: 700;
+
+        &.alert {
+
+            background: rgba($primary,1);
+            border-color: $primary;
+
+            &:hover {
+
+                background: rgba($primary,0.9);
+
+            }
+
+        }
+        
+        &.large {
+            
+            font-size: 0.875rem;
+            padding: 1.250rem 2.000rem;
+            
+        }
+
+    }
+
+}

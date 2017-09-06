@@ -1,0 +1,323 @@
+/**
+*
+* Controls the hero banner area
+*
+*/
+
+body {
+    
+    .l-herobanner {
+        
+        /*margin-top: 100px;*/
+        
+        &.solution {
+            
+            position: fixed;
+            width: 100%;
+            
+        }
+        
+        &.home {
+            
+            margin-top: 0;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            
+            .l-herobanner--description {
+                
+                left: 0;
+                position: absolute;
+                right: 0;
+                top: 35%;
+                z-index: 2;
+                margin: 0 auto;
+                max-width: 40%;
+                text-align: center;
+
+                .l-herobanner--title {
+
+                    color: $white;
+                    font-size: 2.500rem;
+                    margin-bottom: 2.500rem;
+
+                }
+
+                p {
+
+                    color: $white;
+
+                }
+                
+            }
+            
+            .video {
+
+                position: fixed;
+                z-index: 1;
+
+            }
+            
+        }
+        
+        &.page {
+            
+            background: $gray;
+            padding: 5.000rem 0;
+            
+            .meta {
+                
+                li {
+                    
+                    display: inline-block;
+                    padding: 0 0.500rem;
+                    
+                    &:first-child {
+                        
+                        padding-left: 0;
+                        
+                    }
+                    
+                }
+                
+            }
+            
+            .l-herobanner--featured {
+                
+                left: 0;
+                position: absolute;
+                right: 0;
+                top: 0;
+                
+            }
+            
+        }
+        
+        &.solution {
+            
+            padding: 10.000rem 0 4.000rem 0;            
+            
+        }
+        
+        &.light {
+
+            h2, p {
+
+                color: $white;
+
+            }
+
+        }
+        
+        &.dark {
+
+            h2, p {
+
+                color: rgba($black,0.8);
+
+            }
+
+        }
+        
+    }
+    
+    .main-wrapper {
+        
+        background: $white;
+        position: absolute;
+        top: 700px;
+        width: 100%;
+        z-index: 2;
+        
+    }
+
+}
+
+
+/**
+*
+* LARGE ONLY
+*
+*/
+
+
+@media screen and (max-width: 64em) {
+    
+    body {
+        
+        .l-herobanner {
+            
+            &.home {
+                
+                height: 550px;
+                
+                .l-herobanner--description {
+                    
+                    max-width: 60%;
+                    top: 30%;
+
+                    h2, p {
+
+                        color: $white;
+
+                    }
+                    
+                    h2 {
+
+                        font-size: 1.875rem;
+
+                    }
+
+                }
+
+            }
+
+        }
+        
+        .main-wrapper {
+
+            top: 550px;
+
+        }
+        
+    }
+    
+}
+
+
+/**
+*
+* MEDIUM ONLY
+*
+*/
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+    body {
+        
+        .l-herobanner {
+            
+            &.home {
+
+                background: url(../assets/img/bg-video-header-medium.jpg) top center no-repeat;
+                background-size: cover;
+                height: 550px;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                .l-herobanner--description {
+                    
+                    max-width: 60%;
+                    top: 35%;
+
+                    h2, p {
+
+                        color: $white;
+
+                    }
+                    
+                    h2 {
+
+                        font-size: 1.875rem;
+
+                    }
+
+                }
+
+            }
+
+            &.page {
+                
+                margin-top: 60px;
+                padding-left: 0.750rem;
+                padding-right: 0.750rem;
+                
+                .l-herobanner--description {
+                    
+                    padding-left: 0.750rem;
+                    padding-right: 0.750rem;
+                    
+                }
+
+            }
+
+        }
+
+    }
+    
+}
+
+
+
+/**
+*
+* SMALL ONLY
+*
+*/
+
+@media screen and (max-width: 39.9375em) {
+
+    body {
+
+        .l-herobanner {
+            
+            text-align: center;
+            
+            &.home {
+                
+                align-items: center;
+                background: red url(../assets/img/bg-video-header-small.jpg) top center no-repeat;
+                background-size: cover;
+                display: flex;
+                height: 450px;
+                justify-content: center;
+                margin-top: 60px;
+                text-align: center;
+
+                .l-herobanner--description {
+                    
+                    max-width: 80%;
+                    top: 25%;
+
+                    h2, p {
+
+                        color: $white;
+
+                    }
+
+                }
+                
+            }
+            
+            &.page {
+            
+                margin-top: 60px;
+                
+                .l-herobanner--description {
+                    
+                    padding-left: 0.750rem;
+                    padding-right: 0.750rem;
+                    
+                }
+                 
+            }
+            
+            header {
+                
+                h2 {
+                    
+                    font-size: 2.000rem;
+                    
+                }
+                
+            }
+
+        }
+
+    }
+    
+}

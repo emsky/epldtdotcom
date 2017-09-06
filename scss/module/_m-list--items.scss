@@ -1,0 +1,187 @@
+body {
+
+    ul {
+        
+        &.m-icon {
+
+            list-style: none;
+            margin-left: 0;   
+            
+            &.m--check {
+                
+                li {
+
+                    position: relative;
+
+                    &:before {
+
+                        color: $primary;
+                        content: "\f00c";
+                        display: inline-block;
+                        font-family: 'FontAwesome';    
+                        padding-right: 0.500rem;
+
+                    }
+
+                }
+                
+            }
+            
+            &.m--social {
+
+                list-style: none;
+                margin-left: 0;
+
+                li {
+
+                    display: inline;
+
+                    a {
+
+                        background: red;
+                        color: $white;
+                        display: inline-block;
+                        height: 44px;
+                        line-height: 44px;
+                        padding: 2px 0;
+                        text-align: center;
+                        width: 44px;
+
+                        -webkit-border-radius: 50%;
+                        border-radius: 50%;
+
+                        &.facebook {
+
+                            background: #337ab7;
+
+                        }
+
+                        &.twitter {
+
+                            background: #5bc0de;
+
+                        }
+
+                        &.linkedin {
+
+                            background: #0077b5;
+
+                        }
+
+                        &:hover {
+
+                            opacity: 0.8;
+
+                        }
+
+                    }
+
+                }            
+
+            }
+            
+        }
+            
+        &.m-nopadding--left {
+
+            li {
+
+                a {
+
+                    padding-left: 0;
+
+                }
+
+            }
+
+        }
+        
+    }
+
+}
+
+
+
+/**
+*
+* MEDIUM ONLY
+*
+*/
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    
+    body {
+        
+        .job-listing {
+
+            margin-bottom: 2.000rem;
+            
+            li {
+                
+                a {
+                    
+                    span {
+                        
+                        &.job-location,
+                        &.job-type {
+                            
+                            display: none;
+                            
+                        }
+                        
+                    }
+                    
+                }
+                
+            }
+            
+        }
+        
+    }
+    
+}
+
+
+
+/**
+*
+* SMALL ONLY
+*
+*/
+
+@media screen and (max-width: 39.9375em) {
+    
+    body {
+
+        ul {
+            
+            &.job-listing {
+
+                margin-bottom: 2.000rem;
+
+                li {
+
+                    a {
+
+                        span {
+
+                            &.job-location,
+                            &.job-type {
+
+                                display: none;
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+            
+        }
+
+    }
+    
+}

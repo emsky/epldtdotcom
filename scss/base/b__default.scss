@@ -1,0 +1,73 @@
+body {
+    
+    font-family: $font-family-graphik; 
+    font-weight: 100;
+    
+    h1, h2, h3, h4, h5, h6, p, li, dl, dt, th, tr, td, a, fieldset, label, input, textarea, span, small, time {
+        
+        font-family: $font-family-graphik; 
+        
+        small {
+            
+            color: $font-header-color;
+            
+        }
+        
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        
+        color: $font-header-color;
+        font-weight: 700;
+        
+    }
+    
+    p, li, dl, dt, th, tr, td, a, fieldset, label, input, textarea, span, small, time {
+        
+        color: $font-body-color;
+        
+    }
+    
+    a {
+
+        &:hover {
+
+            color: $primary;
+
+        }
+
+    }
+    
+    input {
+        
+        &[type="text"],
+        &[type="email"],
+        &[type="tel"] {
+            
+            background: $gray;
+            
+        }
+        
+    }
+    
+    textarea {
+        
+        background: $gray;
+        
+    }
+    
+    input::placeholder, 
+    textarea::placeholder {
+
+        color: $font-header-color;
+
+    }
+    
+    video {
+        
+        margin: 0;
+        padding: 0;
+        
+    }
+
+}

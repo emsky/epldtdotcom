@@ -1,0 +1,15 @@
+body {
+
+    .callout {
+
+        border: 0;
+
+        &.secondary {
+
+            background: $gray;
+
+        }
+
+    }
+    
+}

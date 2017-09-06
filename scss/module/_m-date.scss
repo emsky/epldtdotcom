@@ -1,0 +1,40 @@
+body {
+
+    .date-block {
+        
+        background: $black;
+        position: relative;
+        text-align: center;
+        height: 100px;
+        width: 100%;
+        
+        .date-day,
+        .date-month {
+            
+            color: $white;
+            display: block;
+            
+        }
+        
+        .date-month {
+            
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 20px;
+            
+        }
+        
+        .date-day {
+            
+            font-size: 2.000rem;
+            font-weight: 700;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 40px;
+            
+        }
+    }
+
+}

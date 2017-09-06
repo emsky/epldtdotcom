@@ -1,0 +1,84 @@
+/**
+*
+* Controls the footer
+*
+*/
+
+body {
+
+    footer {
+        
+        background: $white;
+        border-bottom: $border-color 1px solid;
+        padding: 4.000rem 0;
+        
+        h5 {
+            
+            text-transform: uppercase;
+            
+        }
+        
+        .menu {
+            
+            margin-left: 0;
+            
+            li {
+                
+                a {
+                    
+                    color: rgba(0, 0, 0, 0.5);
+                    padding-left: 0;
+                    
+                    &:hover {
+                        
+                        color: $primary;
+                        
+                    }
+                    
+                }
+                
+            }
+            
+        }
+        
+    }
+
+}
+
+
+
+/**
+*
+* SMALL ONLY
+*
+*/
+
+@media screen and (max-width: 39.9375em) {
+
+    body {
+
+        footer {
+
+            text-align: center;
+
+            .menu {
+
+                margin-bottom: 1.250rem;
+
+                li {
+
+                    a {
+
+                        padding-left: 1.000rem;
+
+                    }
+
+                }
+
+            }
+
+        }  
+
+    }
+    
+}
