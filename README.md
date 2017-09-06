@@ -282,11 +282,13 @@ Learn more about [microformats](http://microformats.org/wiki/hcard).
     * Firefox 3 and earlier versions behave the same as Safari and Chrome. As of version 3.5, browser no longer sends a request.
     * Opera does not do anything when an empty image src is encountered.
 
-    ##### Why is this behavior bad?
+    *Why is this behavior bad?*
     
-    1. Cripples your servers by sending a large amount of unexpected traffic, especially for pages that get millions of page views per day.
-    2. Wastes server computing cycles generating a page that will never be viewed.
-    3. Possibly corrupts user data. If you are tracking state in the request, either by cookies or in another way, you have the possibility of destroying data. Even though the image request does not return an image, all of the headers are read and accepted by the browser, including all cookies. While the rest of the response is thrown away, the damage may already be done.
+    * Cripples your servers by sending a large amount of unexpected traffic, especially for pages that get millions of page views per day.
+    
+    * Wastes server computing cycles generating a page that will never be viewed.
+    
+    * Possibly corrupts user data. If you are tracking state in the request, either by cookies or in another way, you have the possibility of destroying data. Even though the image request does not return an image, all of the headers are read and accepted by the browser, including all cookies. While the rest of the response is thrown away, the damage may already be done.
     
         The root cause of this behavior is the way that URI resolution is performed in browsers. This behavior is defined in RFC 3986 - Uniform Resource Identifiers. When an empty string is encountered as a URI, it is considered a relative URI and is resolved according to the algorithm defined in section 5.2.
         
@@ -296,7 +298,7 @@ Learn more about [microformats](http://microformats.org/wiki/hcard).
         
         HTML5 adds to the description of the  tag's `src` attribute to instruct browsers not to make an additional request in section 4.8.2:
         
-        > The `src` attribute must be present, and must contain a valid URL referencing a non-interactive, optionally animated, image resource that is neither paged nor scripted. If the base URI of the element is the same as the document's address, then the src attribute's value must not be the empty string.
+        The `src` attribute must be present, and must contain a valid URL referencing a non-interactive, optionally animated, image resource that is neither paged nor scripted. If the base URI of the element is the same as the document's address, then the src attribute's value must not be the empty string.
        
 
 ## Maintainability and Structure
@@ -306,7 +308,8 @@ Learn more about [microformats](http://microformats.org/wiki/hcard).
 * Using SASS/SCSS as our preprocessor, we divide up our stylesheets into the following general structure.
 
 
-    ![General front-end folder struct](https://lh3.googleusercontent.com/-VOWW5OzH9h4/WZ-r7MH6h7I/AAAAAAAAAQo/VtlEN8fKrwsEDJ7eDEmBbwdqs2SmC7K-ACE0YBhgL/s0/public_html.png "public_html.png")
+	<img src="https://lh3.googleusercontent.com/-VOWW5OzH9h4/WZ-r7MH6h7I/AAAAAAAAAQo/VtlEN8fKrwsEDJ7eDEmBbwdqs2SmC7K-ACE0YBhgL/s0/public_html.png" width="480"/>
+
 
 
 
