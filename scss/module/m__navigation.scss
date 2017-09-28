@@ -5,15 +5,13 @@
 * Mobile Navigation
 *
 */
-
 body {
+  /*.desktop-menu {
 
-    /*.desktop-menu {
-        
         &.home {
-            
+
             background: none;
-            
+
             &.stick {
 
                 background: $primary;
@@ -25,11 +23,11 @@ body {
                 z-index: 3;
 
                 transition: all 1s;
-                -webkit-transition: all 1s; 
-                -o-transition: all 1s; 
+                -webkit-transition: all 1s;
+                -o-transition: all 1s;
 
             }
-            
+
         }
 
         background: $primary;
@@ -37,11 +35,11 @@ body {
         top: 0;
         width: 100%;
         z-index: 4;
-        
+
         transition: all 1s;
-        -webkit-transition: all 1s; 
-        -o-transition: all 1s; 
-        
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
+
         .brand {
 
             a {
@@ -59,7 +57,7 @@ body {
             }
 
         }
-        
+
         nav {
 
             float: right;
@@ -71,7 +69,7 @@ body {
                     a {
 
                         color: rgba($white,1);
-                        font-family: 'Graphik'; 
+                        font-family: 'Graphik';
                         font-weight: bold;
                         line-height: 100px;
                         padding-bottom: 0;
@@ -82,7 +80,7 @@ body {
 
                             color: rgba($white,0.8);
 
-                        } 
+                        }
 
                     }
 
@@ -96,11 +94,11 @@ body {
 
                                 &:hover,
                                 &:visited {
-                                    
+
                                     background: rgba($black,0.9);
                                     color: rgba($white,0.8);
 
-                                } 
+                                }
 
                             }
 
@@ -128,7 +126,7 @@ body {
             }
 
         }
-        
+
         .is-dropdown-submenu {
 
             border: rgba($white,0.6) 1px solid;
@@ -148,147 +146,96 @@ body {
         }
 
     }*/
-
 }
-
-
-
-
-/** 
+/**
 *
-* Medium only 
+* Medium only
 *
 */
-
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-    
-    body {
-        
-        .mobile-menu {
+  body {
+    .mobile-menu {
+      background: $primary;
+      position: fixed;
+      text-align: center;
+      top: 0;
+      width: 100%;
+      z-index: 3;
 
-            background: $primary;
-            position: fixed;
-            text-align: center;
-            top: 0;
-            width: 100%;
-            z-index: 3;
+      a {
+        color: $white;
+        line-height: 60px;
+        padding: 0;
 
-            a {
-
-                color: $white;
-                line-height: 60px;
-                padding: 0;
-
-                &:hover {
-
-                    color: rgba($white,0.8);
-
-                }
-
-            }
-
+        &:hover {
+          color: rgba($white,0.8);
         }
-        
+      }
     }
-    
+  }
 }
-
-
-
-
-/** 
+/**
 *
-* Small only 
+* Small only
 *
 */
-
 @media screen and (max-width: 39.9375em) {
-    
-    body {
-        
-        .off-canvas {
-            
-            background: $white;
-            
-            .off-canvas-bar {
-                
-                margin-bottom: 0.625rem;
-                padding: 1.000rem;
-                
-                a {
-                    
-                    color: $primary;
-                    
-                    &:hover {
-                        
-                        color: $primary-light;
-                        
-                    }
-                    
-                }
-                
-            }
-            
-        }
-        
-        .drilldown {
-            
-            a {
-                
-                &:hover {
-                    
-                    background: $gray;
-                    
-                }
-                
-            }
-            
-        }
-        
-        .drilldown .is-drilldown-submenu-parent > a::after {
+  body {
+    .off-canvas {
+      background: $white;
 
-            border-color: transparent transparent transparent $border-color;
+      .off-canvas-bar {
+        margin-bottom: 0.625rem;
+        padding: 1.000rem;
 
-        }
-        
-        .drilldown .js-drilldown-back > a::before {
-            
-            border-color: transparent $border-color transparent transparent;
-            
-        }
-        
-        .position-left.is-transition-push {
+        a {
+          color: $primary;
 
-            -webkit-box-shadow: none;
-            box-shadow: none;
-
+          &:hover {
+            color: $primary-light;
+          }
         }
-        
-        .mobile-menu {
-            
-            background: $primary;
-            position: fixed;
-            text-align: center;
-            top: 0;
-            width: 100%;
-            z-index: 3;
-            
-            a {
-                
-                color: $white;
-                line-height: 60px;
-                padding: 0;
-                
-                &:hover {
-                    
-                    color: rgba($white,0.8);
-                    
-                }
-                
-            }
-            
-        }
-        
+      }
     }
-    
+
+    .drilldown {
+      a {
+        &:hover {
+          background: $gray;
+        }
+      }
+    }
+
+    .drilldown .is-drilldown-submenu-parent > a::after {
+      border-color: transparent transparent transparent $border-color;
+    }
+
+    .drilldown .js-drilldown-back > a::before {
+      border-color: transparent $border-color transparent transparent;
+    }
+
+    .position-left.is-transition-push {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    .mobile-menu {
+      background: $primary;
+      position: fixed;
+      text-align: center;
+      top: 0;
+      width: 100%;
+      z-index: 3;
+
+      a {
+        color: $white;
+        line-height: 60px;
+        padding: 0;
+
+        &:hover {
+          color: rgba($white,0.8);
+        }
+      }
+    }
+  }
 }

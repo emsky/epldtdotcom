@@ -1,4 +1,13 @@
-/* Pallette */
+//** OVERRIDES FOR FOUNDATION
+//
+/* Project Palette */
+/* Company Palette */
+/* Typography */
+/* Treatments and Effects */
+//##
+//  -----------------------------
+
+/* Palette */
 
 $primary: #D21412;
 $primary-light: #db4b56;
@@ -9,8 +18,49 @@ $dark-gray: #333333;
 $black: #000000;
 $border-color: #e8e8e8;
 
-/* Font Settings */
+/* Typography */
 
-$font-family-graphik: 'Graphik', san-serif; 
+$font-family--primary: 'Graphik','Helvetica Neue', Helvetica, Roboto, Arial, san-serif;
+$font-family--secondary: 'Avenir','Helvetica Neue', Helvetica, Roboto, Arial,san-serif;
 $font-header-color: #3E4855;
 $font-body-color: #6B7C93;
+
+/* Company Palette */
+$color--debug: rgba(255,0,0,0.4);
+$easing--primary: cubic-bezier(0.215, 0.61, 0.355, 1);
+$easing--secondary: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+$color--orange1: #FF7E00;
+$color--orange2: #FF9832;
+$color--orange3: #FFB266;
+$color--orange4: #FFCA99;
+$color--orange5: #FFE5CC;
+$color--darkblue1: #003683;
+$color--darkblue2: #335E9B;
+$color--darkblue3: #6686B4;
+$color--darkblue4: #99AECD;
+$color--darkblue5: #CCD6E6;
+$color--yellow1: #FFD806;
+$color--yellow2: #FEE736;
+$color--yellow3: #FFEE67;
+$color--yellow4: #FFF299;
+$color--yellow5: #FFF9CB;
+$color--purple1: #9029D2;
+$color--purple2: #A55CDA;
+$color--purple3: #BC85E2;
+$color--purple4: #D2AEEC;
+$color--purple5: #E9D6F4;
+$color--green1: #85C91D;
+$color--green2: #9ED44A;
+$color--green3: #B6DF77;
+$color--green4: #CEE9A4;
+$color--green5: #E6F4D1;
+$color--blue1: #0184B8;
+$color--blue2: #339DC5;
+$color--blue3: #66B5D4;
+$color--blue4: #9ACEE4;
+$color--blue5: #CCE7F2;
+
+/* Treatments and Effects */
+
+$shadow-level-mid: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+$shadow-level-mid-darker: 0 15px 35px rgba(50,50,93,.3), 0 5px 15px rgba(0,0,0,.1);

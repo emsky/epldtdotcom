@@ -2,7 +2,7 @@ body {
 
     .button {
 
-        font-family: $font-family-graphik;
+        font-family: $font-family--primary;
         font-weight: 700;
 
         &.alert {
@@ -17,12 +17,12 @@ body {
             }
 
         }
-        
+
         &.large {
-            
+
             font-size: 0.875rem;
             padding: 1.250rem 2.000rem;
-            
+
         }
 
     }

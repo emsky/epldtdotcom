@@ -2866,23 +2866,88 @@ A Base rule is applied to an element using an element selector, a descendent sel
   font-weight: 100;
   font-style: italic; }
 
-/* Pallette */
-/* Font Settings */
+/* Project Palette */
+/* Company Palette */
+/* Typography */
+/* Treatments and Effects */
+/* Palette */
+/* Typography */
+/* Company Palette */
+/* Treatments and Effects */
 body {
-  font-family: "Graphik", san-serif;
+  font-family: "Graphik", "Helvetica Neue", Helvetica, Roboto, Arial, san-serif;
   font-weight: 100; }
-  body h1, body h2, body h3, body h4, body h5, body h6, body p, body li, body dl, body dt, body th, body tr, body td, body a, body fieldset, body label, body input, body textarea, body span, body small, body time {
-    font-family: "Graphik", san-serif; }
-    body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body h6 small, body p small, body li small, body dl small, body dt small, body th small, body tr small, body td small, body a small, body fieldset small, body label small, body input small, body textarea small, body span small, body small small, body time small {
+  body a,
+  body dl,
+  body dt,
+  body fieldset,
+  body h1,
+  body h2,
+  body h3,
+  body h4,
+  body h5,
+  body h6,
+  body input,
+  body label,
+  body li,
+  body p,
+  body small,
+  body span,
+  body td,
+  body textarea,
+  body th,
+  body time,
+  body tr {
+    font-family: "Graphik", "Helvetica Neue", Helvetica, Roboto, Arial, san-serif; }
+    body a small,
+    body dl small,
+    body dt small,
+    body fieldset small,
+    body h1 small,
+    body h2 small,
+    body h3 small,
+    body h4 small,
+    body h5 small,
+    body h6 small,
+    body input small,
+    body label small,
+    body li small,
+    body p small,
+    body small small,
+    body span small,
+    body td small,
+    body textarea small,
+    body th small,
+    body time small,
+    body tr small {
       color: #3E4855; }
-  body h1, body h2, body h3, body h4, body h5, body h6 {
+  body h1,
+  body h2,
+  body h3,
+  body h4,
+  body h5,
+  body h6 {
     color: #3E4855;
     font-weight: 700; }
-  body p, body li, body dl, body dt, body th, body tr, body td, body a, body fieldset, body label, body input, body textarea, body span, body small, body time {
+  body a,
+  body dl,
+  body dt,
+  body fieldset,
+  body input,
+  body label,
+  body li,
+  body p,
+  body small,
+  body span,
+  body td,
+  body textarea,
+  body th,
+  body time,
+  body tr {
     color: #6B7C93; }
   body a:hover {
     color: #D21412; }
-  body input[type="text"], body input[type="email"], body input[type="tel"] {
+  body input[type="email"], body input[type="tel"], body input[type="text"] {
     background: #f7f9fc; }
   body textarea {
     background: #f7f9fc; }
@@ -3273,20 +3338,25 @@ body .sidebar .sidebar-title {
   text-transform: uppercase; }
 
 body .l-userbar {
-  background: #D21412; }
+  background: #D21412;
+  position: fixed;
+  width: 100%;
+  z-index: 9999; }
   body .l-userbar .brand a {
     display: block;
-    line-height: 80px;
+    line-height: 64px;
     padding: 0; }
     body .l-userbar .brand a:hover {
       opacity: 0.8; }
+  body .l-userbar .brand img {
+    height: 32px; }
   body .l-userbar nav {
     float: right; }
     body .l-userbar nav .menu li a {
       color: white;
       font-family: 'Graphik';
       font-weight: bold;
-      line-height: 100px;
+      line-height: 64px;
       padding-bottom: 0;
       padding-top: 0; }
       body .l-userbar nav .menu li a:hover, body .l-userbar nav .menu li a:visited {
@@ -3400,11 +3470,11 @@ body .job-listing {
 */
 body {
   /*.desktop-menu {
-        
+
         &.home {
-            
+
             background: none;
-            
+
             &.stick {
 
                 background: $primary;
@@ -3416,11 +3486,11 @@ body {
                 z-index: 3;
 
                 transition: all 1s;
-                -webkit-transition: all 1s; 
-                -o-transition: all 1s; 
+                -webkit-transition: all 1s;
+                -o-transition: all 1s;
 
             }
-            
+
         }
 
         background: $primary;
@@ -3428,11 +3498,11 @@ body {
         top: 0;
         width: 100%;
         z-index: 4;
-        
+
         transition: all 1s;
-        -webkit-transition: all 1s; 
-        -o-transition: all 1s; 
-        
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
+
         .brand {
 
             a {
@@ -3450,7 +3520,7 @@ body {
             }
 
         }
-        
+
         nav {
 
             float: right;
@@ -3462,7 +3532,7 @@ body {
                     a {
 
                         color: rgba($white,1);
-                        font-family: 'Graphik'; 
+                        font-family: 'Graphik';
                         font-weight: bold;
                         line-height: 100px;
                         padding-bottom: 0;
@@ -3473,7 +3543,7 @@ body {
 
                             color: rgba($white,0.8);
 
-                        } 
+                        }
 
                     }
 
@@ -3487,11 +3557,11 @@ body {
 
                                 &:hover,
                                 &:visited {
-                                    
+
                                     background: rgba($black,0.9);
                                     color: rgba($white,0.8);
 
-                                } 
+                                }
 
                             }
 
@@ -3519,7 +3589,7 @@ body {
             }
 
         }
-        
+
         .is-dropdown-submenu {
 
             border: rgba($white,0.6) 1px solid;
@@ -3540,9 +3610,9 @@ body {
 
     }*/ }
 
-/** 
+/**
 *
-* Medium only 
+* Medium only
 *
 */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
@@ -3560,9 +3630,9 @@ body {
       body .mobile-menu a:hover {
         color: rgba(255, 255, 255, 0.8); } }
 
-/** 
+/**
 *
-* Small only 
+* Small only
 *
 */
 @media screen and (max-width: 39.9375em) {
@@ -3620,7 +3690,7 @@ body .accordion-clean .tabs-title > a[aria-selected="true"] {
   border-bottom: #db4b56 3px solid; }
 
 body .button {
-  font-family: "Graphik", san-serif;
+  font-family: "Graphik", "Helvetica Neue", Helvetica, Roboto, Arial, san-serif;
   font-weight: 700; }
   body .button.alert {
     background: #d21412;
@@ -3638,25 +3708,30 @@ body .button {
 * Cards are a popular and flexible UI component.
 *
 */
-body .card .card-title {
-  font-size: 1.125rem; }
-
-body .card .card-action {
-  padding: 0 2.000rem 1.000rem; }
-
-body .card .card-more {
-  text-align: right; }
-  body .card .card-more a {
-    color: #db4b56; }
-    body .card .card-more a:hover {
-      text-decoration: underline; }
-
-body .card .card-padding {
-  padding: 2.000rem; }
-
-body .card:hover {
-  -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1); }
+body .card {
+  border-radius: 4px;
+  border: none;
+  -webkit-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  transition-property: color, background-color, box-shadow, transform;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  body .card .card-title {
+    font-size: 1.125rem; }
+  body .card .card-action {
+    padding: 0 2.000rem 1.000rem; }
+  body .card .card-more {
+    text-align: right; }
+    body .card .card-more a {
+      color: #db4b56; }
+      body .card .card-more a:hover {
+        text-decoration: underline; }
+  body .card .card-padding {
+    padding: 2.000rem; }
+  body .card:hover {
+    -webkit-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.3), 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.3), 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px); }
 
 body .callout {
   border: 0; }
@@ -4291,7 +4366,7 @@ body .scrims {
   body .scrims .scrims-content {
     display: block;
     bottom: 0;
-    padding: 3.000rem 2.000rem 1.000rem 2.000rem;
+    padding: 3.000rem 2.000rem 1.000rem;
     position: absolute;
     right: 0;
     left: 0;
@@ -4319,7 +4394,7 @@ body .scrims {
     color: #ffffff; }
   body .scrims img {
     -webkit-transition: all 0.3s;
-    transition: all 0.3s; }
+    transition: all 0.3s cubic-bezier(0.895, 0.03, 0.685, 0.22); }
   body .scrims:hover img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1); }
@@ -9560,3 +9635,13 @@ a.thumbnail {
 
 .long-delay {
   animation-delay: 700ms !important; }
+
+.baseline-overlay {
+  background-image: url(//basehold.it/i/8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 10000;
+  pointer-events: none; }

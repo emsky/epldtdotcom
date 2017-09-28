@@ -1,0 +1,10 @@
+.baseline-overlay {
+  background-image: url(//basehold.it/i/8); // 24px baseline
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 10000;
+  pointer-events: none;
+}

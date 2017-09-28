@@ -1,16 +1,22 @@
 body {
   .l-userbar {
     background: $primary;
+    position: fixed;
+    width: 100%;
+    z-index: 9999; // @em: always on top
 
     .brand {
       a {
         display: block;
-        line-height: 80px;
+        line-height: 64px;
         padding: 0;
 
         &:hover {
           opacity: 0.8;
         }
+      }
+      img {
+        height: 32px;
       }
     }
 
@@ -23,7 +29,7 @@ body {
             color: rgba($white,1);
             font-family: 'Graphik';
             font-weight: bold;
-            line-height: 100px;
+            line-height: 64px;
             padding-bottom: 0;
             padding-top: 0;
 
