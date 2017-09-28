@@ -3276,7 +3276,7 @@ body .l-userbar {
   background: #D21412; }
   body .l-userbar .brand a {
     display: block;
-    line-height: 100px;
+    line-height: 80px;
     padding: 0; }
     body .l-userbar .brand a:hover {
       opacity: 0.8; }
