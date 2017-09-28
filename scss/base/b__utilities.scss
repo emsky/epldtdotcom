@@ -1,0 +1,16 @@
+.center-vertically {
+  position: absolute;
+  left: 50%;
+  transform: translateY(-50%);
+}
+.center-horizontally {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.dead-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}

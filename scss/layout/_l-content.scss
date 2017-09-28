@@ -1,282 +1,176 @@
 body {
+  main {
+    padding: 5.000rem 0;
 
-    main {
-        
-        padding: 5.000rem 0;
-        
-        .section-header {
+    .section-header {
+      margin: 0 auto 2.875rem;
+      width: 60%;
 
-            margin: 0 auto 2.875rem;
-            width: 60%;
+      .section-title {
+        margin-bottom: 1.500rem;
 
-            .section-title {
-
-                margin-bottom: 1.500rem;
-
-                &.alert {
-
-                    color: $primary-light;
-
-                }
-
-            }
-
+        &.alert {
+          color: $primary-light;
         }
-        
-        section {
-            
-            &.section {
-                
-                padding: 4.000rem 0;
-                
-                &.gray {
-                    
-                    background: $gray; 
-                    
-                }
-                
-                &.solution-product-services {
-                    
-                    text-align: center;
-                    
-                }
-                
-                &.solution-selling-point {
-
-                    
-                }
-                
-                &.partner-logo {
-
-                    a {
-
-                        display: block;
-
-                        img {
-
-                            margin-bottom: 1.250rem;
-
-                        }
-
-                    }
-
-                }
-                
-            }
-            
-            &.solutions {
-                
-                .callout {
-                    
-                    border-color: #e6e6e6;
-                    
-                    img {
-                        
-                        margin-bottom: 1.250rem;
-                        
-                    }
-                    
-                    .solutions-title {
-                        
-                        font-size: 1.000rem;
-                        font-weight: 500;
-                        
-                    }
-                    
-                    p {
-                        
-                        font-size: 0.875rem;
-                        
-                    }
-                    
-                }
-                
-            }
-            
-            &.business-resilience,
-            &.outpace-competitors,
-            &.experiences-that-matter {
-                
-                h3 {
-                    
-                    color: $primary-light;
-                    margin-bottom: 1.250rem;
-                    
-                }
-                
-            }
-            
-        }
-        
+      }
     }
 
+    section {
+      &.section {
+        padding: 4.000rem 0;
+
+        &.gray {
+          background: $gray;
+        }
+
+        &.solution-product-services {
+          text-align: center;
+        }
+
+        &.solution-selling-point {}
+
+        &.partner-logo {
+          a {
+            display: block;
+
+            img {
+              margin-bottom: 1.250rem;
+            }
+          }
+        }
+      }
+
+      &.solutions {
+        .callout {
+          border-color: #e6e6e6;
+
+          img {
+            margin-bottom: 1.250rem;
+          }
+
+          .solutions-title {
+            font-size: 1.000rem;
+            font-weight: 500;
+          }
+
+          p {
+            font-size: 0.875rem;
+          }
+        }
+      }
+
+      &.business-resilience,
+      &.experiences-that-matter,
+      &.outpace-competitors {
+        h3 {
+          color: $primary-light;
+          margin-bottom: 1.250rem;
+        }
+      }
+    }
+  }
 }
-
-
 /**
 *
 * MEDIUM ONLY
 *
 */
-
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-
-    body {
-        
-        .main-wrapper {
-
-            top: 500px;
-
-        }  
-
-        main {
-            
-            padding-left: 0.750rem;
-            padding-right: 0.750rem;
-
-            section {
-
-                &.section {
-
-                    &.solution-product-services {
-
-                        text-align: center;
-
-                    }
-
-                    &.solution-selling-point {
-
-                        .orbit {
-
-                            margin-bottom: 1.500rem;
-
-                        }
-
-                    }
-
-                    &.partner-logo {
-
-                        a {
-
-                            display: block;
-
-                            img {
-
-                                margin-bottom: 1.250rem;
-
-                            }
-
-                        }
-
-                    }
-
-                    .section-header {
-
-                        margin: 0 auto 2.875rem;
-                        width: 75%;
-
-                        .section-title {
-
-                            margin-bottom: 1.500rem;
-
-                            &.alert {
-
-                                color: $primary-light;
-
-                            }
-
-                        }
-
-                    }
-
-                }
-
-            }            
-
-        }  
-
+  body {
+    .main-wrapper {
+      top: 500px;
     }
-    
+
+    main {
+      padding-left: 0.750rem;
+      padding-right: 0.750rem;
+
+      section {
+        &.section {
+          &.solution-product-services {
+            text-align: center;
+          }
+
+          &.solution-selling-point {
+            .orbit {
+              margin-bottom: 1.500rem;
+            }
+          }
+
+          &.partner-logo {
+            a {
+              display: block;
+
+              img {
+                margin-bottom: 1.250rem;
+              }
+            }
+          }
+
+          .section-header {
+            margin: 0 auto 2.875rem;
+            width: 75%;
+
+            .section-title {
+              margin-bottom: 1.500rem;
+
+              &.alert {
+                color: $primary-light;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
-
-
-
 /**
 *
 * SMALL ONLY
 *
 */
-
 @media screen and (max-width: 39.9375em) {
-    
-    body {
-        
-        .main-wrapper {
-
-            top: 400px;
-
-        }
-
-        main {
-            
-            padding-left: 0.750rem;
-            padding-right: 0.750rem;
-
-            section {
-
-                &.section {
-
-                    &.solution-product-services {
-
-                        text-align: center;
-
-                    }
-
-                    &.solution-selling-point {
-
-                        .orbit {
-
-                            margin-bottom: 1.500rem;
-
-                        }
-
-                    }
-
-                    &.partner-logo {
-
-                        a {
-
-                            display: block;
-
-                            img {
-
-                                margin-bottom: 1.250rem;
-
-                            }
-
-                        }
-
-                    }
-
-                }
-
-                .section-header {
-
-                    margin: 0 auto 2.875rem;
-                    width: 75%;
-
-                    .section-title {
-
-                        margin-bottom: 1.500rem;
-
-                    }
-
-                }
-
-            }            
-
-        }
-        
+  body {
+    .main-wrapper {
+      top: 400px;
     }
-    
+
+    main {
+      padding-left: 0.750rem;
+      padding-right: 0.750rem;
+
+      section {
+        &.section {
+          &.solution-product-services {
+            text-align: center;
+          }
+
+          &.solution-selling-point {
+            .orbit {
+              margin-bottom: 1.500rem;
+            }
+          }
+
+          &.partner-logo {
+            a {
+              display: block;
+
+              img {
+                margin-bottom: 1.250rem;
+              }
+            }
+          }
+        }
+
+        .section-header {
+          margin: 0 auto 2.875rem;
+          width: 75%;
+
+          .section-title {
+            margin-bottom: 1.500rem;
+          }
+        }
+      }
+    }
+  }
 }
