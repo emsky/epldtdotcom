@@ -3146,9 +3146,6 @@ body .l-herobanner {
         margin-bottom: 2.500rem; }
       body .l-herobanner.home .l-herobanner--description p {
         color: #ffffff; }
-    body .l-herobanner.home .video {
-      position: fixed;
-      z-index: 1; }
   body .l-herobanner.page {
     background: #f7f9fc;
     padding: 5.000rem 0; }
@@ -3163,10 +3160,12 @@ body .l-herobanner {
       right: 0;
       top: 0; }
   body .l-herobanner.solution {
-    padding: 10.000rem 0 4.000rem 0; }
-  body .l-herobanner.light h2, body .l-herobanner.light p {
+    padding: 10.000rem 0 4.000rem; }
+  body .l-herobanner.light h2,
+  body .l-herobanner.light p {
     color: #ffffff; }
-  body .l-herobanner.dark h2, body .l-herobanner.dark p {
+  body .l-herobanner.dark h2,
+  body .l-herobanner.dark p {
     color: rgba(0, 0, 0, 0.8); }
 
 body .main-wrapper {
@@ -3187,7 +3186,8 @@ body .main-wrapper {
     body .l-herobanner.home .l-herobanner--description {
       max-width: 60%;
       top: 30%; }
-      body .l-herobanner.home .l-herobanner--description h2, body .l-herobanner.home .l-herobanner--description p {
+      body .l-herobanner.home .l-herobanner--description h2,
+      body .l-herobanner.home .l-herobanner--description p {
         color: #ffffff; }
       body .l-herobanner.home .l-herobanner--description h2 {
         font-size: 1.875rem; }
@@ -3201,7 +3201,7 @@ body .main-wrapper {
 */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   body .l-herobanner.home {
-    background: url(../assets/img/bg-video-header-medium.jpg) top center no-repeat;
+    background: url("../assets/img/bg-video-header-medium.jpg") top center no-repeat;
     background-size: cover;
     height: 550px;
     text-align: center;
@@ -3211,7 +3211,8 @@ body .main-wrapper {
     body .l-herobanner.home .l-herobanner--description {
       max-width: 60%;
       top: 35%; }
-      body .l-herobanner.home .l-herobanner--description h2, body .l-herobanner.home .l-herobanner--description p {
+      body .l-herobanner.home .l-herobanner--description h2,
+      body .l-herobanner.home .l-herobanner--description p {
         color: #ffffff; }
       body .l-herobanner.home .l-herobanner--description h2 {
         font-size: 1.875rem; }
@@ -3233,7 +3234,7 @@ body .main-wrapper {
     text-align: center; }
     body .l-herobanner.home {
       align-items: center;
-      background: red url(../assets/img/bg-video-header-small.jpg) top center no-repeat;
+      background: red url("../assets/img/bg-video-header-small.jpg") top center no-repeat;
       background-size: cover;
       display: flex;
       height: 450px;
@@ -3243,7 +3244,8 @@ body .main-wrapper {
       body .l-herobanner.home .l-herobanner--description {
         max-width: 80%;
         top: 25%; }
-        body .l-herobanner.home .l-herobanner--description h2, body .l-herobanner.home .l-herobanner--description p {
+        body .l-herobanner.home .l-herobanner--description h2,
+        body .l-herobanner.home .l-herobanner--description p {
           color: #ffffff; }
     body .l-herobanner.page {
       margin-top: 60px; }
@@ -4394,7 +4396,7 @@ body .scrims {
     color: #ffffff; }
   body .scrims img {
     -webkit-transition: all 0.3s;
-    transition: all 0.3s cubic-bezier(0.895, 0.03, 0.685, 0.22); }
+    transition: all 0.3s linear; }
   body .scrims:hover img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1); }
@@ -9645,3 +9647,39 @@ a.thumbnail {
   width: 100vw;
   z-index: 10000;
   pointer-events: none; }
+
+/*  Full-width video fix
+*   Author: @ellesa
+*   Description: Video does not span the full width of the viewport. This
+*  attempts to override the inline attributes.
+*/
+.wrapper--video {
+  width: 100%; }
+  .wrapper--video .video {
+    position: fixed;
+    z-index: 0;
+    top: 0; }
+
+@media screen and (min-width: 90em) {
+  .wrapper--video .video {
+    background: blue; }
+  .wrapper--video:after {
+    display: block;
+    position: absolute;
+    z-index: 9997;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 30%;
+    content: ' ';
+    background: linear-gradient(); }
+  .wrapper--video:before {
+    display: block;
+    position: absolute;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 30%;
+    content: ' ';
+    background: blue; } }

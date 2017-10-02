@@ -1,0 +1,48 @@
+/*  Full-width video fix
+*   Author: @ellesa
+*   Description: Video does not span the full width of the viewport. This
+*  attempts to override the inline attributes.
+*/
+
+.wrapper--video {
+  width: 100%;
+
+  .video {
+    position: fixed;
+    z-index: 0;
+    top: 0;
+
+  }
+
+}
+
+@media screen and (min-width: 90em) {
+  .wrapper--video {
+    .video {
+      background: blue;
+    }
+    &:after {
+      display: block;
+      position: absolute;
+      z-index: 9997;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 30%;
+      content:' ';
+      background: linear-gradient();
+    }
+    &:before {
+      display: block;
+      position: absolute;
+      z-index: 9998;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 30%;
+      content:' ';
+      background: blue;
+    }
+
+  }
+}

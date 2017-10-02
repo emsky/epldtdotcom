@@ -61,7 +61,7 @@ body {
 
     img {
       -webkit-transition: all 0.3s;
-      transition: all 0.3s $easing--secondary;
+      transition: all 0.3s linear;
     }
 
     &:hover {
