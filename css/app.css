@@ -2866,6 +2866,14 @@ A Base rule is applied to an element using an element selector, a descendent sel
   font-weight: 100;
   font-style: italic; }
 
+/* AVENIR FONT */
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/Avenir-Black.eot");
+  src: url("../fonts/Avenir-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-Black.woff") format("woff"), url("../fonts/Avenir-Black.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic; }
+
 /* Project Palette */
 /* Company Palette */
 /* Typography */
@@ -2881,12 +2889,6 @@ body {
   body dl,
   body dt,
   body fieldset,
-  body h1,
-  body h2,
-  body h3,
-  body h4,
-  body h5,
-  body h6,
   body input,
   body label,
   body li,
@@ -2903,12 +2905,6 @@ body {
     body dl small,
     body dt small,
     body fieldset small,
-    body h1 small,
-    body h2 small,
-    body h3 small,
-    body h4 small,
-    body h5 small,
-    body h6 small,
     body input small,
     body label small,
     body li small,
@@ -2927,6 +2923,7 @@ body {
   body h4,
   body h5,
   body h6 {
+    font-family: "Avenir", "Helvetica Neue", Helvetica, Roboto, Arial, san-serif;
     color: #3E4855;
     font-weight: 700; }
   body a,
@@ -3142,8 +3139,12 @@ body .l-herobanner {
       text-align: center; }
       body .l-herobanner.home .l-herobanner--description .l-herobanner--title {
         color: #ffffff;
-        font-size: 2.500rem;
-        margin-bottom: 2.500rem; }
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 3rem;
+        letter-spacing: 3.43px;
+        line-height: 4.5rem;
+        text-transform: uppercase; }
       body .l-herobanner.home .l-herobanner--description p {
         color: #ffffff; }
   body .l-herobanner.page {
@@ -9662,24 +9663,4 @@ a.thumbnail {
 
 @media screen and (min-width: 90em) {
   .wrapper--video .video {
-    background: blue; }
-  .wrapper--video:after {
-    display: block;
-    position: absolute;
-    z-index: 9997;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 30%;
-    content: ' ';
-    background: linear-gradient(); }
-  .wrapper--video:before {
-    display: block;
-    position: absolute;
-    z-index: 9998;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 30%;
-    content: ' ';
-    background: blue; } }
+    top: -240px; } }

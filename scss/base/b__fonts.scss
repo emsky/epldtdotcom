@@ -3,7 +3,7 @@
 /* GRAPHIK FONT */
 
 @font-face {
-    
+
     font-family: 'Graphik';
     src: url('../fonts/Graphik-BoldItalic.eot');
     src: url('../fonts/Graphik-BoldItalic.eot?#iefix') format('embedded-opentype'),
@@ -11,11 +11,11 @@
         url('../fonts/Graphik-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
-    
+
 }
 
 @font-face {
-    
+
 	font-family: 'Graphik';
 	src: url('../fonts/Graphik-Light.eot');
 	src: url('../fonts/Graphik-Light.eot?#iefix') format('embedded-opentype'),
@@ -23,11 +23,11 @@
 		url('../fonts/Graphik-Light.ttf') format('truetype');
 	font-weight: 300;
 	font-style: normal;
-    
+
 }
 
 @font-face {
-    
+
 	font-family: 'Graphik';
 	src: url('../fonts/Graphik-LightItalic.eot');
 	src: url('../fonts/Graphik-LightItalic.eot?#iefix') format('embedded-opentype'),
@@ -35,7 +35,7 @@
 		url('../fonts/Graphik-LightItalic.ttf') format('truetype');
 	font-weight: 300;
 	font-style: italic;
-    
+
 }
 
 @font-face {
@@ -49,7 +49,7 @@
 }
 
 @font-face {
-    
+
 	font-family: 'Graphik';
 	src: url('../fonts/Graphik-Bold.eot');
 	src: url('../fonts/Graphik-Bold.eot?#iefix') format('embedded-opentype'),
@@ -57,11 +57,11 @@
 		url('../fonts/Graphik-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
-    
+
 }
 
 @font-face {
-    
+
 	font-family: 'Graphik';
 	src: url('../fonts/Graphik-RegularItalic.eot');
 	src: url('../fonts/Graphik-RegularItalic.eot?#iefix') format('embedded-opentype'),
@@ -69,11 +69,11 @@
 		url('../fonts/Graphik-RegularItalic.ttf') format('truetype');
 	font-weight: normal;
 	font-style: italic;
-    
+
 }
 
 @font-face {
-    
+
 	font-family: 'Graphik';
 	src: url('../fonts/Graphik-Thin.eot');
 	src: url('../fonts/Graphik-Thin.eot?#iefix') format('embedded-opentype'),
@@ -81,11 +81,11 @@
 		url('../fonts/Graphik-Thin.ttf') format('truetype');
 	font-weight: 100;
 	font-style: normal;
-    
+
 }
 
 @font-face {
-    
+
 	font-family: 'Graphik';
 	src: url('../fonts/Graphik-Medium.eot');
 	src: url('../fonts/Graphik-Medium.eot?#iefix') format('embedded-opentype'),
@@ -93,11 +93,11 @@
 		url('../fonts/Graphik-Medium.ttf') format('truetype');
 	font-weight: 500;
 	font-style: normal;
-    
+
 }
 
 @font-face {
-    
+
 	font-family: 'Graphik';
 	src: url('../fonts/Graphik-MediumItalic.eot');
 	src: url('../fonts/Graphik-MediumItalic.eot?#iefix') format('embedded-opentype'),
@@ -105,16 +105,30 @@
 		url('../fonts/Graphik-MediumItalic.ttf') format('truetype');
 	font-weight: 500;
 	font-style: italic;
-    
+
 }
 
 @font-face {
-    
+
 	font-family: 'Graphik';
 	src: url('../fonts/Graphik-ThinItalic.eot');
 	src: url('../fonts/Graphik-ThinItalic.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/Graphik-ThinItalic.woff') format('woff'),
 		url('../fonts/Graphik-ThinItalic.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}
+
+
+/* AVENIR FONT */
+
+@font-face {
+
+	font-family: 'Avenir';
+	src: url('../fonts/Avenir-Black.eot');
+	src: url('../fonts/Avenir-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Avenir-Black.woff') format('woff'),
+		url('../fonts/Avenir-Black.ttf') format('truetype');
 	font-weight: 100;
 	font-style: italic;
 }

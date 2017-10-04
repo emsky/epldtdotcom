@@ -5532,6 +5532,78 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/fonts\/Avenir-Black.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Avenir-Black.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Avenir-BlackOblique.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Avenir-BlackOblique.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Avenir-Book.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Avenir-Book.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Avenir-BookOblique.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Avenir-BookOblique.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Avenir-Heavy.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Avenir-Heavy.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Avenir-HeavyOblique.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Avenir-HeavyOblique.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Avenir-Light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Avenir-Light.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Avenir-LightOblique.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Avenir-LightOblique.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Avenir-Medium.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Avenir-Medium.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Avenir-MediumOblique.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Avenir-MediumOblique.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Avenir-Oblique.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Avenir-Oblique.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Avenir-Roman.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Avenir-Roman.ttf",
+		"oF": 0
+		},
 	"\/fonts\/fontawesome-webfont.eot": {
 		"ft": 8192,
 		"oA": 2,

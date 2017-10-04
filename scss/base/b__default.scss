@@ -6,12 +6,6 @@ body {
   dl,
   dt,
   fieldset,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
   input,
   label,
   li,
@@ -36,6 +30,7 @@ body {
   h4,
   h5,
   h6 {
+    font-family: $font-family--secondary;
     color: $font-header-color;
     font-weight: 700;
   }
