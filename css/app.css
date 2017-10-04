@@ -2874,6 +2874,41 @@ A Base rule is applied to an element using an element selector, a descendent sel
   font-weight: 100;
   font-style: italic; }
 
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/Avenir-Book.eot");
+  src: url("../fonts/Avenir-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-Book.woff") format("woff"), url("../fonts/Avenir-Book.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/Avenir-Heavy.eot");
+  src: url("../fonts/Avenir-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-Heavy.woff") format("woff"), url("../fonts/Avenir-Heavy.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/Avenir-Light.eot");
+  src: url("../fonts/Avenir-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-Light.woff") format("woff"), url("../fonts/Avenir-Light.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/Avenir-Medium.eot");
+  src: url("../fonts/Avenir-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-Medium.woff") format("woff"), url("../fonts/Avenir-Medium.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/Avenir-Roman.eot");
+  src: url("../fonts/Avenir-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-Roman.woff") format("woff"), url("../fonts/Avenir-Roman.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic; }
+
 /* Project Palette */
 /* Company Palette */
 /* Typography */
@@ -2979,7 +3014,10 @@ body {
 *
 */
 body main {
-  padding: 5.000rem 0; }
+  padding: 5.000rem 0;
+  background: #ffffff;
+  top: 17.25rem;
+  position: relative; }
   body main .section-header {
     margin: 0 auto 2.875rem;
     width: 60%; }
@@ -3132,7 +3170,7 @@ body .l-herobanner {
       left: 0;
       position: absolute;
       right: 0;
-      top: 35%;
+      top: 50%;
       z-index: 2;
       margin: 0 auto;
       max-width: 40%;
@@ -3148,8 +3186,27 @@ body .l-herobanner {
       body .l-herobanner.home .l-herobanner--description p {
         color: #ffffff; }
   body .l-herobanner.page {
-    background: #f7f9fc;
-    padding: 5.000rem 0; }
+    background: url("../assets/img/bg-page-banner.jpg") top left no-repeat;
+    background-size: cover;
+    height: 17.25rem;
+    padding: 5.000rem 0;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    z-index: -1; }
+    body .l-herobanner.page .l-herobanner--description {
+      position: relative;
+      top: 50%;
+      transform: translateY(-45%); }
+    body .l-herobanner.page .l-herobanner--title {
+      font-family: Avenir;
+      font-size: 32px;
+      font-weight: 400;
+      letter-spacing: 4px;
+      line-height: 48px;
+      text-transform: uppercase; }
+    body .l-herobanner.page h3, body .l-herobanner.page p {
+      color: #ffffff; }
     body .l-herobanner.page .meta li {
       display: inline-block;
       padding: 0 0.500rem; }
@@ -3341,7 +3398,7 @@ body .sidebar .sidebar-title {
   text-transform: uppercase; }
 
 body .l-userbar {
-  background: #D21412;
+  background: transparent;
   position: fixed;
   width: 100%;
   z-index: 9999; }
@@ -3352,7 +3409,7 @@ body .l-userbar {
     body .l-userbar .brand a:hover {
       opacity: 0.8; }
   body .l-userbar .brand img {
-    height: 32px; }
+    height: 24px; }
   body .l-userbar nav {
     float: right; }
     body .l-userbar nav .menu li a {
@@ -4352,21 +4409,21 @@ body ul.m-nopadding--left li a {
 
 /**
 *
-* SCRIMS
+*  SCRIMS AND OVERLAYS
 *
 * Scrims adds different overlay color to images
 * It also adds zooming effect on the image
 *
 */
-body .scrims {
+.scrims {
   overflow: hidden;
   position: relative; }
-  body .scrims .scrims-title {
+  .scrims .scrims-title {
     font-size: 1.125rem;
     margin-bottom: 0; }
-    body .scrims .scrims-title.featured {
+    .scrims .scrims-title.featured {
       font-size: 2.000rem; }
-  body .scrims .scrims-content {
+  .scrims .scrims-content {
     display: block;
     bottom: 0;
     padding: 3.000rem 2.000rem 1.000rem;
@@ -4374,7 +4431,7 @@ body .scrims {
     right: 0;
     left: 0;
     z-index: 2; }
-  body .scrims .scrims-overlay {
+  .scrims .scrims-overlay {
     background: transparent linear-gradient(180deg, transparent 0%, #000 100%) repeat scroll 0 0;
     bottom: 0;
     display: block;
@@ -4384,23 +4441,33 @@ body .scrims {
     top: 0;
     left: 0;
     z-index: 1; }
-  body .scrims span {
+  .scrims span {
     color: #ffffff;
     bottom: 1.250rem;
     left: 1.125rem;
     position: absolute;
     text-transform: uppercase;
     z-index: 2; }
-  body .scrims .category {
+  .scrims .category {
     color: rgba(255, 255, 255, 0.8); }
-  body .scrims a {
+  .scrims a {
     color: #ffffff; }
-  body .scrims img {
+  .scrims img {
     -webkit-transition: all 0.3s;
     transition: all 0.3s linear; }
-  body .scrims:hover img {
+  .scrims:hover img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1); }
+
+.overlay--primary {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAF0lEQVQYV2NkYGBogGIGEGAEk0iAsAAAPu4BBTcj+HcAAAAASUVORK5CYII=) #D40008;
+  height: 100%;
+  opacity: .75;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0; }
 
 /**
 *

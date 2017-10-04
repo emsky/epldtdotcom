@@ -39,6 +39,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/bg-page-banner.jpg": {
+		"ft": 16384,
+		"iS": 92552,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bg-page-banner.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/bg-video-header-medium.jpg": {
 		"ft": 16384,
 		"iS": 281405,
@@ -6519,7 +6529,7 @@
 "projectAttributes": {
 	"creationDate": 527068365,
 	"displayValue": "epldtdotcom-frontend",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-gavin"
 	},
 "projectSettings": {

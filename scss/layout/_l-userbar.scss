@@ -1,6 +1,6 @@
 body {
   .l-userbar {
-    background: $primary;
+    background: transparent;
     position: fixed;
     width: 100%;
     z-index: 9999; // @em: always on top
@@ -16,7 +16,7 @@ body {
         }
       }
       img {
-        height: 32px;
+        height: 24px;
       }
     }
 

@@ -24,7 +24,7 @@ body {
         left: 0;
         position: absolute;
         right: 0;
-        top: 35%;
+        top: 50%;
         z-index: 2;
         margin: 0 auto;
         max-width: 40%;
@@ -49,8 +49,33 @@ body {
     }
 
     &.page {
-      background: $gray;
+      background: url("../assets/img/bg-page-banner.jpg") top left no-repeat;
+      background-size: cover;
+      height: 17.25rem;
       padding: 5.000rem 0;
+      position: fixed;
+      overflow: hidden;
+      width: 100%;
+      z-index:-1;
+
+      .l-herobanner--description {
+        position: relative;
+        top: 50%;
+        transform: translateY(-45%);
+      }
+
+      .l-herobanner--title {
+        font-family: Avenir;
+        font-size: 32px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        line-height: 48px;
+        text-transform: uppercase;
+      }
+
+      h3, p {
+        color: $white;
+      }
 
       .meta {
         li {

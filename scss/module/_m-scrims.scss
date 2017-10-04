@@ -1,12 +1,11 @@
 /**
 *
-* SCRIMS
+*  SCRIMS AND OVERLAYS
 *
 * Scrims adds different overlay color to images
 * It also adds zooming effect on the image
 *
 */
-body {
   .scrims {
     overflow: hidden;
     position: relative;
@@ -71,4 +70,16 @@ body {
       }
     }
   }
-}
+
+
+
+  .overlay--primary {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAF0lEQVQYV2NkYGBogGIGEGAEk0iAsAAAPu4BBTcj+HcAAAAASUVORK5CYII=) #D40008;
+    height: 100%;
+    opacity: .75;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+  }
