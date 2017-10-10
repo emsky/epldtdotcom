@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/assets\/img\/avatar.jpg": {
 		"ft": 16384,
 		"iS": 1134,
@@ -34,6 +40,16 @@
 		"iS": 160809,
 		"oA": 0,
 		"oAP": "\/assets\/img\/bg-herobanner-careers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/bg-herobanner-home.jpg": {
+		"ft": 16384,
+		"iS": 195303,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bg-herobanner-home.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5512,6 +5528,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/careers.html",
+		"oF": 0
+		},
+	"\/CHANGELOG.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CHANGELOG.html",
 		"oF": 0
 		},
 	"\/CHANGELOG.md": {

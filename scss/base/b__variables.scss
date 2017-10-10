@@ -15,15 +15,17 @@ $warning: #FFEE67;
 $white: #ffffff;
 $gray: #f7f9fc;
 $dark-gray: #333333;
-$black: #000000;
+$black: #181818;
 $border-color: #e8e8e8;
 
 /* Typography */
 
 $font-family--primary: 'Graphik','Helvetica Neue', Helvetica, Roboto, Arial, san-serif;
 $font-family--secondary: 'Avenir','Helvetica Neue', Helvetica, Roboto, Arial,san-serif;
+$body-font-family: $font-family--primary;
+$header-font-family: $font-family--secondary;
 $font-header-color: #3E4855;
-$font-body-color: #6B7C93;
+$font-body-color: rgba(0,0,0,0.4);
 
 /* Company Palette */
 $color--debug: rgba(255,0,0,0.4);

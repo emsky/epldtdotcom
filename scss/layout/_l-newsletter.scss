@@ -1,87 +1,55 @@
 body {
+  .newsletter {
+    background: $gray;
+    padding: 4.000rem 0;
 
-    .newsletter {
+    .social {
+      margin: 0;
+      padding: 0;
 
-        background: $gray;
-        padding: 4.000rem 0;
+      li {
+        display: inline;
 
-        .social {
+        a {
+          color: $black;
+          padding: 0 0.625rem;
 
-            margin: 0;
-            padding: 0;
-
-            li {
-
-                display: inline;
-
-                a {
-
-                    color: $black;
-                    padding: 0 0.625rem;
-
-                    &:hover {
-
-                        color: $primary;
-
-                    }
-
-                }
-
-            }
-
+          &:hover {
+            color: $primary;
+          }
         }
-
-        .button {
-
-            background: $primary-light;
-            font-weight: 700;
-
-        }
-
+      }
     }
 
+    .button {
+      background: $primary-light;
+      font-weight: 700;
+    }
+  }
 }
-
-
 /**
 *
 * MEDIUM ONLY
 *
 */
-
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-    
-    body {
-
-        .newsletter {
-
-            padding-left: 0.750rem;
-            padding-right: 0.750rem;
-
-        }
-
+  body {
+    .newsletter {
+      padding-left: 0.750rem;
+      padding-right: 0.750rem;
     }
-    
+  }
 }
-
-
 /**
 *
 * SMALL ONLY
 *
 */
-
 @media screen and (max-width: 39.9375em) {
-
-    body {
-
-        .newsletter {
-
-            padding-left: 0.750rem;
-            padding-right: 0.750rem;
-
-        }
-
+  body {
+    .newsletter {
+      padding-left: 0.750rem;
+      padding-right: 0.750rem;
     }
-    
+  }
 }

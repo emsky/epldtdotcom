@@ -12,11 +12,22 @@ body {
     -webkit-box-shadow: $shadow-level-mid;
     box-shadow: $shadow-level-mid;
     transition-property: color, background-color, box-shadow, transform;
-    transition-duration: 0.25s;
+    transition-duration: 0.75s;
     transition-timing-function: $easing--primary;
 
     .card-title {
-      font-size: 1.125rem;
+      font-size: 1.4rem;
+      margin: 0 0 1em;
+
+      a {
+        font-family: $header-font-family;
+        color: $black;
+        transition: 0.25s color linear;
+
+        &:hover {
+          color: $primary;
+        }
+      }
     }
 
     .card-action {
@@ -28,10 +39,6 @@ body {
 
       a {
         color: $primary-light;
-
-        &:hover {
-          text-decoration: underline;
-        }
       }
     }
 

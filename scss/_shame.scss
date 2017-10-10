@@ -22,3 +22,15 @@
     }
   }
 }
+
+
+/*  Top navigation hover effect fix
+*   Author: @ellesa
+*   Description: Pseudo-underline appears too far under the menu text
+*/
+.menu {
+  .sliding-middle-out:after {
+    position: relative;
+    top: -16px;
+  }
+}

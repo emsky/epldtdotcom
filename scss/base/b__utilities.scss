@@ -14,3 +14,40 @@
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
+
+/* Reusable Effects */
+
+.sliding-middle-out {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:after {
+  	content: '';
+  	display: block;
+  	margin: auto;
+  	height: 3px;
+  	width: 0px;
+  	background: transparent;
+  	transition: width .5s $easing--primary, background-color .5s $easing--primary;
+  }
+
+  &:hover:after {
+  	width: 100%;
+  	background: $primary;
+  }
+
+  &.inverted {
+      color: $white;
+
+    &:hover:after {
+      width: 100%;
+      background: $white;
+    }
+  }
+
+}
