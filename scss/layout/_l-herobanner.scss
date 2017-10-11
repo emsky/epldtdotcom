@@ -24,7 +24,7 @@ body {
       align-items: center;
       justify-content: center;
       position: fixed;
-      z-index: 0;
+      z-index: z("below-surface");
 
       .l-herobanner--description {
         left: 0;
@@ -32,7 +32,6 @@ body {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        z-index: 2;
         margin: 0 auto;
         max-width: 40%;
         text-align: left;
@@ -61,7 +60,7 @@ body {
       position: relative;
       overflow: hidden;
       width: 100%;
-      z-index: -1;
+      z-index: z("below-surface");
 
       .l-herobanner--description {
         position: relative;
@@ -126,7 +125,7 @@ body {
     position: absolute;
     top: 100%;
     width: 100%;
-    z-index: 2;
+    z-index: z("above-surface");
   }
 }
 /**

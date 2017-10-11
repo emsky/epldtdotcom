@@ -8,11 +8,17 @@
 // All z-index values should be set here
 
 $z-layers: (
-  'modal':            5000,
-  'dropdown':         4000,
   'default':             1,
-  'summit':          10000,   // when a component has to be really really HIGH
-  'bottomless-pit': -10000    // when a component has to be really really LOW
+  'below-surface':    2500,
+  'surface':          3000,
+  'tooltip':          3250,
+  'above-surface':    3500,
+  'panes':            3500,
+  'scrims':           3750,
+  'dropdown':         4000,
+  'modal':            5000,
+  'lagrange':         10000,   // when a component has to be above everything else
+  'bottomless-pit':  -10000    // when a component has to be really really LOW
 );
 
 // A function helper to avoid having to type `map-get($z-layers, ...)`

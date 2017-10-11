@@ -3190,14 +3190,13 @@ body .l-herobanner {
     align-items: center;
     justify-content: center;
     position: fixed;
-    z-index: 0; }
+    z-index: 2500; }
     body .l-herobanner.home .l-herobanner--description {
       left: 0;
       background: rgba(255, 0, 0, 0.4);
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      z-index: 2;
       margin: 0 auto;
       max-width: 40%;
       text-align: left; }
@@ -3219,7 +3218,7 @@ body .l-herobanner {
     position: relative;
     overflow: hidden;
     width: 100%;
-    z-index: -1; }
+    z-index: 2500; }
     body .l-herobanner.page .l-herobanner--description {
       position: relative;
       top: 50%;
@@ -3258,7 +3257,7 @@ body .main-wrapper {
   position: absolute;
   top: 100%;
   width: 100%;
-  z-index: 2; }
+  z-index: 3500; }
 
 /**
 *
@@ -3429,7 +3428,7 @@ body .l-userbar {
   background: transparent;
   position: fixed;
   width: 100%;
-  z-index: 9999; }
+  z-index: 10000; }
   body .l-userbar .brand a {
     display: block;
     line-height: 64px;
@@ -3460,7 +3459,7 @@ body .l-userbar {
   body .l-userbar .is-dropdown-submenu {
     border: rgba(255, 255, 255, 0.6) 1px solid; }
   body .l-userbar .dropdown.menu > li.opens-right > .is-dropdown-submenu {
-    z-index: 4; }
+    z-index: 4000; }
   body .l-userbar .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
     border-color: rgba(255, 255, 255, 0.6) transparent transparent; }
 
@@ -3476,7 +3475,7 @@ body .l-userbar {
     text-align: center;
     top: 0;
     width: 100%;
-    z-index: 3; }
+    z-index: 10000; }
     body .l-userbar--mobile a {
       color: #ffffff;
       line-height: 60px;
@@ -3514,7 +3513,7 @@ body .l-userbar {
     text-align: center;
     top: 0;
     width: 100%;
-    z-index: 3; }
+    z-index: 10000; }
     body .l-userbar--mobile a {
       color: #ffffff;
       line-height: 60px;
@@ -3978,7 +3977,7 @@ div[class$="__circle"]:after {
   position: absolute;
   box-sizing: content-box;
   pointer-events: none;
-  z-index: 2;
+  z-index: 3100;
   content: '';
   height: 100%;
   width: 100%;
@@ -4471,7 +4470,7 @@ body ul.m-nopadding--left li a {
     position: absolute;
     right: 0;
     left: 0;
-    z-index: 2; }
+    z-index: 3050; }
   .scrims .scrims-overlay {
     background: transparent linear-gradient(180deg, transparent 0%, #000 100%) repeat scroll 0 0;
     bottom: 0;
@@ -4481,14 +4480,14 @@ body ul.m-nopadding--left li a {
     right: 0;
     top: 0;
     left: 0;
-    z-index: 1; }
+    z-index: 3500; }
   .scrims span {
     color: #ffffff;
     bottom: 1.250rem;
     left: 1.125rem;
     position: absolute;
     text-transform: uppercase;
-    z-index: 2; }
+    z-index: 3500; }
   .scrims .category {
     color: rgba(255, 255, 255, 0.8); }
   .scrims a {

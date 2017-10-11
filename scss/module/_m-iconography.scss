@@ -68,7 +68,7 @@ div[class$="__circle"]:after {
   position: absolute;
   box-sizing: content-box;
   pointer-events: none;
-  z-index: 2;
+  z-index: z("surface") + 100;
   content: '';
   height: 100%;
   width: 100%;

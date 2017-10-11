@@ -26,7 +26,7 @@
     position: absolute;
     right: 0;
     left: 0;
-    z-index: 2;
+    z-index: z("surface") + 50;
   }
 
   .scrims-overlay {
@@ -38,7 +38,7 @@
     right: 0;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: z("above-surface");
   }
 
   span {
@@ -47,7 +47,7 @@
     left: 1.125rem;
     position: absolute;
     text-transform: uppercase;
-    z-index: 2;
+    z-index: z("above-surface");
   }
 
   .category {
