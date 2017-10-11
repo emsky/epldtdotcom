@@ -45,16 +45,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/bg-herobanner-home.jpg": {
-		"ft": 16384,
-		"iS": 195303,
-		"oA": 0,
-		"oAP": "\/assets\/img\/bg-herobanner-home.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/assets\/img\/bg-page-banner.jpg": {
 		"ft": 16384,
 		"iS": 92552,
@@ -142,6 +132,16 @@
 		"iS": 781241,
 		"oA": 0,
 		"oAP": "\/assets\/img\/hero-banner-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/herobanner-home-lg.jpg": {
+		"ft": 16384,
+		"iS": 195303,
+		"oA": 0,
+		"oAP": "\/assets\/img\/herobanner-home-lg.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -6026,6 +6026,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/base\/b__variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/base\/b__zindex.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/base\/b__zindex.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

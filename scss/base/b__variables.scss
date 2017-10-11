@@ -1,11 +1,16 @@
-//** OVERRIDES FOR FOUNDATION
+//** -----------------------------
+//   Project Overrides for Foundation 6
 //
-/* Project Palette */
-/* Company Palette */
-/* Typography */
-/* Treatments and Effects */
-//##
-//  -----------------------------
+//   /* Containers */
+//   /* Project Palette */
+//   /* Company Palette */
+//   /* Typography */
+//   /* Treatments and Effects */
+//   /* Images */
+//** -----------------------------
+
+/* Containers */
+$grid-container: 100%;
 
 /* Palette */
 
@@ -66,3 +71,8 @@ $color--blue5: #CCE7F2;
 
 $shadow-level-mid: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
 $shadow-level-mid-darker: 0 15px 35px rgba(50,50,93,.3), 0 5px 15px rgba(0,0,0,.1);
+
+/* Images */
+$hero-home: "../assets/img/herobanner-home-lg.jpg";
+$hero-page: "../assets/img/bg-page-banner.jpg";
+$pattern--dots: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAG0lEQVQYV2NkYGDwZWBg2MzAwMDACCJgAIUDACCpAQSwXECLAAAAAElFTkSuQmCC";

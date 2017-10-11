@@ -16,24 +16,26 @@ body {
     }
 
     &.home {
-      margin-top: 0;
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
+      background: url($hero-home) 50% no-repeat;
+      background-size: cover;
       height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      z-index: 0;
 
       .l-herobanner--description {
         left: 0;
+        background: $color--debug;
         position: absolute;
-        right: 0;
         top: 50%;
         transform: translateY(-50%);
         z-index: 2;
         margin: 0 auto;
         max-width: 40%;
-        text-align: center;
+        text-align: left;
 
         .l-herobanner--title {
           color: $white;
@@ -52,11 +54,11 @@ body {
     }
 
     &.page {
-      background: url("../assets/img/bg-page-banner.jpg") top left no-repeat;
+      background: url($hero-page) top left no-repeat;
       background-size: cover;
       height: 17.25rem;
       padding: 5.000rem 0;
-      position: fixed;
+      position: relative;
       overflow: hidden;
       width: 100%;
       z-index: -1;

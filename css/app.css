@@ -2448,14 +2448,12 @@ A Base rule is applied to an element using an element selector, a descendent sel
   font-weight: 100;
   font-style: italic; }
 
-/* Project Palette */
-/* Company Palette */
-/* Typography */
-/* Treatments and Effects */
+/* Containers */
 /* Palette */
 /* Typography */
 /* Company Palette */
 /* Treatments and Effects */
+/* Images */
 body {
   font-family: "Graphik", "Helvetica Neue", Helvetica, Roboto, Arial, san-serif;
   font-weight: 100; }
@@ -3184,23 +3182,25 @@ body .l-herobanner {
     position: fixed;
     width: 100%; }
   body .l-herobanner.home {
-    margin-top: 0;
+    background: url("../assets/img/herobanner-home-lg.jpg") 50% no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%; }
+    z-index: 0; }
     body .l-herobanner.home .l-herobanner--description {
       left: 0;
+      background: rgba(255, 0, 0, 0.4);
       position: absolute;
-      right: 0;
       top: 50%;
       transform: translateY(-50%);
       z-index: 2;
       margin: 0 auto;
       max-width: 40%;
-      text-align: center; }
+      text-align: left; }
       body .l-herobanner.home .l-herobanner--description .l-herobanner--title {
         color: #ffffff;
         font-size: 3rem;
@@ -3216,7 +3216,7 @@ body .l-herobanner {
     background-size: cover;
     height: 17.25rem;
     padding: 5.000rem 0;
-    position: fixed;
+    position: relative;
     overflow: hidden;
     width: 100%;
     z-index: -1; }
@@ -4501,9 +4501,9 @@ body ul.m-nopadding--left li a {
     transform: scale(1.1); }
 
 .overlay--primary {
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAF0lEQVQYV2NkYGBogGIGEGAEk0iAsAAAPu4BBTcj+HcAAAAASUVORK5CYII=") #D40008;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAG0lEQVQYV2NkYGDwZWBg2MzAwMDACCJgAIUDACCpAQSwXECLAAAAAElFTkSuQmCC") #D40008;
   height: 100%;
-  opacity: 0.75;
+  opacity: 0.6;
   position: absolute;
   top: 0;
   left: 0;
@@ -5019,7 +5019,7 @@ textarea {
   display: none !important; }
 
 .grid-container {
-  max-width: 75rem;
+  max-width: 100%;
   margin: 0 auto; }
 
 .grid-container-padded {
