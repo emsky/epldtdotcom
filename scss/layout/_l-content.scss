@@ -1,4 +1,12 @@
 body {
+  .main-wrapper {
+    background: $white;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: z("above-surface");
+    overflow: hidden;
+
   main {
     padding: 5.000rem 0;
     background: $white;
@@ -70,6 +78,7 @@ body {
         }
       }
     }
+  }
   }
 }
 /**

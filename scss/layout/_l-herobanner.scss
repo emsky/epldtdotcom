@@ -16,7 +16,9 @@ body {
     }
 
     &.home {
-      background: url($hero-home) 50% no-repeat;
+      background-image: url($hero-home);
+      background-position: center center;
+      background-attachment: fixed;
       background-size: cover;
       height: 100%;
       width: 100%;
@@ -120,13 +122,7 @@ body {
     }
   }
 
-  .main-wrapper {
-    background: $white;
-    position: absolute;
-    top: 100%;
-    width: 100%;
-    z-index: z("above-surface");
-  }
+
 }
 /**
 *
@@ -152,6 +148,12 @@ body {
             font-size: 1.875rem;
           }
         }
+      }
+
+      .l-wrapper--inclines {
+        diplay: block;
+        max-height: 200px;
+        background: $color--debug;
       }
     }
 

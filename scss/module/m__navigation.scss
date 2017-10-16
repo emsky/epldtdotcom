@@ -6,146 +6,104 @@
 *
 */
 body {
-  /*.desktop-menu {
 
-        &.home {
+  .desktop-menu {
+    background: $primary;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
 
-            background: none;
+    &.home {
+      background: none;
 
-            &.stick {
-
-                background: $primary;
-                display: block;
-                left: 0;
-                position: fixed;
-                top: 0;
-                width: 100%;
-                z-index: 3;
-
-                transition: all 1s;
-                -webkit-transition: all 1s;
-                -o-transition: all 1s;
-
-            }
-
-        }
-
+      &.stick {
         background: $primary;
+        display: block;
+        left: 0;
         position: fixed;
         top: 0;
         width: 100%;
-        z-index: 4;
-
+        z-index: 3;
         transition: all 1s;
         -webkit-transition: all 1s;
         -o-transition: all 1s;
+      }
+    }
 
-        .brand {
+    .brand {
+      a {
+        display: block;
+        line-height: 100px;
+        padding: 0;
 
-            a {
+        &:focus,
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
 
-                display: block;
-                line-height: 100px;
-                padding: 0;
+    nav {
 
-                &:hover {
+      .menu {
+        li {
+          a {
+            color: rgba($white,1);
+            font-family: 'Graphik';
+            font-weight: bold;
+            line-height: 100px;
+            padding-bottom: 0;
+            padding-top: 0;
 
-                    opacity: 0.8;
-
-                }
-
+            &:focus,
+            &:hover,
+            &:visited {
+              color: rgba($white,0.8);
             }
+          }
 
-        }
+          .submenu {
+            li {
+              a {
+                border-bottom: rgba($white,0.1) 1px solid;
 
-        nav {
-
-            float: right;
-
-            .menu {
-
-                li {
-
-                    a {
-
-                        color: rgba($white,1);
-                        font-family: 'Graphik';
-                        font-weight: bold;
-                        line-height: 100px;
-                        padding-bottom: 0;
-                        padding-top: 0;
-
-                        &:hover,
-                        &:visited {
-
-                            color: rgba($white,0.8);
-
-                        }
-
-                    }
-
-                    .submenu {
-
-                        li {
-
-                            a {
-
-                                border-bottom: rgba($white,0.1) 1px solid;
-
-                                &:hover,
-                                &:visited {
-
-                                    background: rgba($black,0.9);
-                                    color: rgba($white,0.8);
-
-                                }
-
-                            }
-
-                        }
-
-                    }
-
-                    .menu {
-
-                        li {
-
-                            a {
-
-                                background: #333333;
-                                line-height: 50px;
-
-                            }
-
-                        }
-
-                    }
-
+                &:focus,
+                &:hover,
+                &:visited {
+                  background: rgba($black,0.9);
+                  color: rgba($white,0.8);
                 }
-
+              }
             }
+          }
 
+          .menu {
+            li {
+              a {
+                background: #333333;
+                line-height: 50px;
+              }
+            }
+          }
         }
+      }
+    }
 
-        .is-dropdown-submenu {
+    .is-dropdown-submenu {
+      border: rgba($white,0.6) 1px solid;
+    }
 
-            border: rgba($white,0.6) 1px solid;
+    .dropdown.menu > li.opens-right > .is-dropdown-submenu {
+      z-index: 4;
+    }
 
-        }
-
-        .dropdown.menu > li.opens-right > .is-dropdown-submenu {
-
-            z-index: 4;
-
-        }
-
-        .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
-
-            border-color: rgba($white,0.6) transparent transparent;
-
-        }
-
-    }*/
+    .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+      border-color: rgba($white,0.6) transparent transparent;
+    }
+  }
 }
 /**
 *
@@ -167,6 +125,7 @@ body {
         line-height: 60px;
         padding: 0;
 
+        &:focus,
         &:hover {
           color: rgba($white,0.8);
         }
@@ -191,6 +150,7 @@ body {
         a {
           color: $primary;
 
+          &:focus,
           &:hover {
             color: $primary-light;
           }
@@ -200,6 +160,7 @@ body {
 
     .drilldown {
       a {
+        &:focus,
         &:hover {
           background: $gray;
         }
@@ -232,6 +193,7 @@ body {
         line-height: 60px;
         padding: 0;
 
+        &:focus,
         &:hover {
           color: rgba($white,0.8);
         }

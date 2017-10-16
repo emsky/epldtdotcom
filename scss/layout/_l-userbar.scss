@@ -5,7 +5,6 @@ body {
     width: 100%;
     z-index: z("lagrange");
 
-
     .brand {
       a {
         display: block;
@@ -22,50 +21,59 @@ body {
       }
     }
 
-    nav {
-      float: right;
+    .nav-container {
+      display: flex;
+      flex-direction: row;
+     -webkit-justify-content: flex-end;
+     justify-content: flex-end;
 
-      .menu {
-        li {
-          a {
-            color: rgba($white,1);
-            font-family: 'Graphik';
-            font-weight: bold;
-            line-height: 64px;
-            padding-bottom: 0;
-            padding-top: 0;
+     nav {
 
-            &:hover,
-            &:visited {
-              color: rgba($white,1);
-            }
-          }
+       .menu {
+         li {
+           a {
+             color: rgba($white,1);
+             font-family: 'Graphik';
+             font-weight: bold;
+             line-height: 64px;
+             padding-bottom: 0;
+             padding-top: 0;
 
-          .submenu {
-            li {
-              a {
-                border-bottom: rgba($white,0.1) 1px solid;
+             &:hover,
+             &:visited {
+               color: rgba($white,1);
+             }
+           }
 
-                &:hover,
-                &:visited {
-                  background: rgba($black,0.9);
-                  color: rgba($white,0.8);
-                }
-              }
-            }
-          }
+           .submenu {
+             li {
+               a {
+                 border-bottom: rgba($white,0.1) 1px solid;
 
-          .menu {
-            li {
-              a {
-                background: #333333;
-                line-height: 50px;
-              }
-            }
-          }
-        }
-      }
+                 &:hover,
+                 &:visited {
+                   background: rgba($black,0.9);
+                   color: rgba($white,0.8);
+                 }
+               }
+             }
+           }
+
+           .menu {
+             li {
+               a {
+                 background: #333333;
+                 line-height: 50px;
+               }
+             }
+           }
+         }
+       }
+     }
+
     }
+
+
 
     .is-dropdown-submenu {
       border: rgba($white,0.6) 1px solid;

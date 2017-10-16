@@ -2543,6 +2543,13 @@ body {
   top: 50%;
   transform: translateX(-50%) translateY(-50%); }
 
+/* Force hardware acceleration, Warp speed ahead! */
+.anim {
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  /* more specific animation properties here */ }
+
 /* Reusable Effects */
 .sliding-middle-out {
   display: inline-block;
@@ -2557,7 +2564,7 @@ body {
     height: 3px;
     width: 0px;
     background: transparent;
-    transition: width 0.5s cubic-bezier(0.215, 0.61, 0.355, 1), background-color 0.5s cubic-bezier(0.215, 0.61, 0.355, 1); }
+    transition: width 0.5s cubic-bezier(0.215, 0.61, 0.355, 1), background-color 0.25s ease; }
   .sliding-middle-out:hover:after {
     width: 100%;
     background: #D21412; }
@@ -3035,39 +3042,46 @@ body {
 * Layout rules divide the page into sections. Layouts hold one or more modules together.
 *
 */
-body main {
-  padding: 5.000rem 0;
+body .main-wrapper {
   background: #ffffff;
-  position: relative; }
-  body main .section-header {
-    margin: 0 auto 2.875rem;
-    width: 60%; }
-    body main .section-header .section-title {
-      margin-bottom: 1.500rem; }
-      body main .section-header .section-title.alert {
-        color: #db4b56; }
-  body main section.section {
-    padding: 4.000rem 0; }
-    body main section.section.gray {
-      background: #f7f9fc; }
-    body main section.section.solution-product-services {
-      text-align: center; }
-    body main section.section.partner-logo a {
-      display: block; }
-      body main section.section.partner-logo a img {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  z-index: 3500;
+  overflow: hidden; }
+  body .main-wrapper main {
+    padding: 5.000rem 0;
+    background: #ffffff;
+    position: relative; }
+    body .main-wrapper main .section-header {
+      margin: 0 auto 2.875rem;
+      width: 60%; }
+      body .main-wrapper main .section-header .section-title {
+        margin-bottom: 1.500rem; }
+        body .main-wrapper main .section-header .section-title.alert {
+          color: #db4b56; }
+    body .main-wrapper main section.section {
+      padding: 4.000rem 0; }
+      body .main-wrapper main section.section.gray {
+        background: #f7f9fc; }
+      body .main-wrapper main section.section.solution-product-services {
+        text-align: center; }
+      body .main-wrapper main section.section.partner-logo a {
+        display: block; }
+        body .main-wrapper main section.section.partner-logo a img {
+          margin-bottom: 1.250rem; }
+    body .main-wrapper main section.solutions .callout {
+      border-color: #e6e6e6; }
+      body .main-wrapper main section.solutions .callout img {
         margin-bottom: 1.250rem; }
-  body main section.solutions .callout {
-    border-color: #e6e6e6; }
-    body main section.solutions .callout img {
+      body .main-wrapper main section.solutions .callout .solutions-title {
+        font-size: 1.000rem;
+        font-weight: 500; }
+      body .main-wrapper main section.solutions .callout p {
+        font-size: 0.875rem; }
+    body .main-wrapper main section.business-resilience h3, body .main-wrapper main section.experiences-that-matter h3, body .main-wrapper main section.outpace-competitors h3 {
+      color: #db4b56;
       margin-bottom: 1.250rem; }
-    body main section.solutions .callout .solutions-title {
-      font-size: 1.000rem;
-      font-weight: 500; }
-    body main section.solutions .callout p {
-      font-size: 0.875rem; }
-  body main section.business-resilience h3, body main section.experiences-that-matter h3, body main section.outpace-competitors h3 {
-    color: #db4b56;
-    margin-bottom: 1.250rem; }
 
 /**
 *
@@ -3182,7 +3196,9 @@ body .l-herobanner {
     position: fixed;
     width: 100%; }
   body .l-herobanner.home {
-    background: url("../assets/img/herobanner-home-lg.jpg") 50% no-repeat;
+    background-image: url("../assets/img/herobanner-home-lg.jpg");
+    background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -3252,13 +3268,6 @@ body .l-herobanner {
   body .l-herobanner.dark p {
     color: rgba(24, 24, 24, 0.8); }
 
-body .main-wrapper {
-  background: #ffffff;
-  position: absolute;
-  top: 100%;
-  width: 100%;
-  z-index: 3500; }
-
 /**
 *
 * LARGE ONLY
@@ -3275,6 +3284,10 @@ body .main-wrapper {
         color: #ffffff; }
       body .l-herobanner.home .l-herobanner--description h2 {
         font-size: 1.875rem; }
+  body .l-herobanner .l-wrapper--inclines {
+    diplay: block;
+    max-height: 200px;
+    background: rgba(255, 0, 0, 0.4); }
   body .main-wrapper {
     top: 550px; } }
 
@@ -3437,23 +3450,26 @@ body .l-userbar {
       opacity: 0.8; }
   body .l-userbar .brand img {
     height: 24px; }
-  body .l-userbar nav {
-    float: right; }
-    body .l-userbar nav .menu li a {
+  body .l-userbar .nav-container {
+    display: flex;
+    flex-direction: row;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end; }
+    body .l-userbar .nav-container nav .menu li a {
       color: white;
       font-family: 'Graphik';
       font-weight: bold;
       line-height: 64px;
       padding-bottom: 0;
       padding-top: 0; }
-      body .l-userbar nav .menu li a:hover, body .l-userbar nav .menu li a:visited {
+      body .l-userbar .nav-container nav .menu li a:hover, body .l-userbar .nav-container nav .menu li a:visited {
         color: white; }
-    body .l-userbar nav .menu li .submenu li a {
+    body .l-userbar .nav-container nav .menu li .submenu li a {
       border-bottom: rgba(255, 255, 255, 0.1) 1px solid; }
-      body .l-userbar nav .menu li .submenu li a:hover, body .l-userbar nav .menu li .submenu li a:visited {
+      body .l-userbar .nav-container nav .menu li .submenu li a:hover, body .l-userbar .nav-container nav .menu li .submenu li a:visited {
         background: rgba(24, 24, 24, 0.9);
         color: rgba(255, 255, 255, 0.8); }
-    body .l-userbar nav .menu li .menu li a {
+    body .l-userbar .nav-container nav .menu li .menu li a {
       background: #333333;
       line-height: 50px; }
   body .l-userbar .is-dropdown-submenu {
@@ -3555,147 +3571,56 @@ body .job-listing {
 * Mobile Navigation
 *
 */
-body {
-  /*.desktop-menu {
-
-        &.home {
-
-            background: none;
-
-            &.stick {
-
-                background: $primary;
-                display: block;
-                left: 0;
-                position: fixed;
-                top: 0;
-                width: 100%;
-                z-index: 3;
-
-                transition: all 1s;
-                -webkit-transition: all 1s;
-                -o-transition: all 1s;
-
-            }
-
-        }
-
-        background: $primary;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 4;
-
-        transition: all 1s;
-        -webkit-transition: all 1s;
-        -o-transition: all 1s;
-
-        .brand {
-
-            a {
-
-                display: block;
-                line-height: 100px;
-                padding: 0;
-
-                &:hover {
-
-                    opacity: 0.8;
-
-                }
-
-            }
-
-        }
-
-        nav {
-
-            float: right;
-
-            .menu {
-
-                li {
-
-                    a {
-
-                        color: rgba($white,1);
-                        font-family: 'Graphik';
-                        font-weight: bold;
-                        line-height: 100px;
-                        padding-bottom: 0;
-                        padding-top: 0;
-
-                        &:hover,
-                        &:visited {
-
-                            color: rgba($white,0.8);
-
-                        }
-
-                    }
-
-                    .submenu {
-
-                        li {
-
-                            a {
-
-                                border-bottom: rgba($white,0.1) 1px solid;
-
-                                &:hover,
-                                &:visited {
-
-                                    background: rgba($black,0.9);
-                                    color: rgba($white,0.8);
-
-                                }
-
-                            }
-
-                        }
-
-                    }
-
-                    .menu {
-
-                        li {
-
-                            a {
-
-                                background: #333333;
-                                line-height: 50px;
-
-                            }
-
-                        }
-
-                    }
-
-                }
-
-            }
-
-        }
-
-        .is-dropdown-submenu {
-
-            border: rgba($white,0.6) 1px solid;
-
-        }
-
-        .dropdown.menu > li.opens-right > .is-dropdown-submenu {
-
-            z-index: 4;
-
-        }
-
-        .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
-
-            border-color: rgba($white,0.6) transparent transparent;
-
-        }
-
-    }*/ }
+body .desktop-menu {
+  background: #D21412;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s; }
+  body .desktop-menu.home {
+    background: none; }
+    body .desktop-menu.home.stick {
+      background: #D21412;
+      display: block;
+      left: 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 3;
+      transition: all 1s;
+      -webkit-transition: all 1s;
+      -o-transition: all 1s; }
+  body .desktop-menu .brand a {
+    display: block;
+    line-height: 100px;
+    padding: 0; }
+    body .desktop-menu .brand a:focus, body .desktop-menu .brand a:hover {
+      opacity: 0.8; }
+  body .desktop-menu nav .menu li a {
+    color: white;
+    font-family: 'Graphik';
+    font-weight: bold;
+    line-height: 100px;
+    padding-bottom: 0;
+    padding-top: 0; }
+    body .desktop-menu nav .menu li a:focus, body .desktop-menu nav .menu li a:hover, body .desktop-menu nav .menu li a:visited {
+      color: rgba(255, 255, 255, 0.8); }
+  body .desktop-menu nav .menu li .submenu li a {
+    border-bottom: rgba(255, 255, 255, 0.1) 1px solid; }
+    body .desktop-menu nav .menu li .submenu li a:focus, body .desktop-menu nav .menu li .submenu li a:hover, body .desktop-menu nav .menu li .submenu li a:visited {
+      background: rgba(24, 24, 24, 0.9);
+      color: rgba(255, 255, 255, 0.8); }
+  body .desktop-menu nav .menu li .menu li a {
+    background: #333333;
+    line-height: 50px; }
+  body .desktop-menu .is-dropdown-submenu {
+    border: rgba(255, 255, 255, 0.6) 1px solid; }
+  body .desktop-menu .dropdown.menu > li.opens-right > .is-dropdown-submenu {
+    z-index: 4; }
+  body .desktop-menu .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    border-color: rgba(255, 255, 255, 0.6) transparent transparent; }
 
 /**
 *
@@ -3714,7 +3639,7 @@ body {
       color: #ffffff;
       line-height: 60px;
       padding: 0; }
-      body .mobile-menu a:hover {
+      body .mobile-menu a:focus, body .mobile-menu a:hover {
         color: rgba(255, 255, 255, 0.8); } }
 
 /**
@@ -3730,9 +3655,9 @@ body {
       padding: 1.000rem; }
       body .off-canvas .off-canvas-bar a {
         color: #D21412; }
-        body .off-canvas .off-canvas-bar a:hover {
+        body .off-canvas .off-canvas-bar a:focus, body .off-canvas .off-canvas-bar a:hover {
           color: #db4b56; }
-  body .drilldown a:hover {
+  body .drilldown a:focus, body .drilldown a:hover {
     background: #f7f9fc; }
   body .drilldown .is-drilldown-submenu-parent > a::after {
     border-color: transparent transparent transparent #e8e8e8; }
@@ -3752,7 +3677,7 @@ body {
       color: #ffffff;
       line-height: 60px;
       padding: 0; }
-      body .mobile-menu a:hover {
+      body .mobile-menu a:focus, body .mobile-menu a:hover {
         color: rgba(255, 255, 255, 0.8); } }
 
 /**
