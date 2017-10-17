@@ -351,6 +351,14 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/particles.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/assets\/particles-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/assets\/video\/hero-banner-large.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -5878,6 +5886,24 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/app-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/vendor\/particles.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/vendor\/particles-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/vendor\/particles.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/vendor\/particles.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

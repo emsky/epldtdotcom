@@ -21,13 +21,19 @@ $(document).ready(function(){
 
 // Display Menu on Scroll
 
-$(window).scroll(function() {    
+$(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll > 450) {
-        $(".desktop-menu.home").addClass("stick").fadeIn(); 
+        $(".desktop-menu.home").addClass("stick").fadeIn();
     } else {
         $(".desktop-menu.home").removeClass("stick");
     }
 });
 
+
+// Particles
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'assets/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
