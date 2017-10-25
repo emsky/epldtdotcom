@@ -139,37 +139,35 @@ body {
       width: 100%;
       z-index: z("surface")+500;
 
-      span:first-child {
+      .incline--red {
         background-image: linear-gradient(-36deg, #D21412 0%, #F43A48 56%, #F4691F 100%);
-        background: white;
         display: block;
         height: 73.76vw;
         left: 50%;
         opacity: 0.86;
         position: absolute;
         transform-origin: center center;
-        transform: skewY(-10.315deg) translateY(-10vw) translateX(-50%);
-        width: 100.66vw;
-        z-index: 11000;
+        transform: skewY(-10.9527deg) translateY(-18.89vw) translateX(-50%);
+        width: 101.77vw;
 
       }
 
-      span:last-child {
-        background: white;
-        bottom: 0;
-        display: block;
-        height: 36.88vw;
-        left: 50%;
-        position: absolute;
-        transform-origin: center center;
-        transform: skewY(-6.315deg) translateY(22.89vw) translateX(-50%);
-        width: 100.66vw;
-        z-index: 12000;
-      }
+    } // inclines
 
+    .cta--chat__wrapper {
+      display: block;
+      position: fixed;
+      height: 96px;
+      width: 96px;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+      bottom: 0;
+      right: 0;
+      z-index: z("lagrange")+600;
     }
 
   }
+
 
 }
 /**
@@ -198,20 +196,13 @@ body {
         }
       }
 
-      .inclines {
-        background: $color--debug;
-        bottom: 0;
-        display: block;
-        height: 200px;
-        left: 0;
-        position: absolute;
-        width: 100%;
-        z-index: z("surface")+500;
-      }
     }
 
     .main-wrapper {
       top: 550px;
+
+
+
     }
   }
 }

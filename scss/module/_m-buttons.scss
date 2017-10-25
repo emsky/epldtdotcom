@@ -16,5 +16,25 @@ body {
       font-size: 0.875rem;
       padding: 1.250rem 2.000rem;
     }
+
+    &.round {
+      border-radius: 50%;
+      background: $primary;
+      display: block;
+      height: 64px;
+      width: 64px;
+      position: relative;
+      transition: all 0.5s ease-in-out;
+      top: 50%;
+      right: 50%;
+
+      &:hover {
+        transform: translateY(-1px);
+      }
+
+      &.inverted {
+        background: $white;
+      }
+    }
   }
 }
