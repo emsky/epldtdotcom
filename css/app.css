@@ -3207,6 +3207,15 @@ body footer {
 * Controls the hero banner area
 *
 */
+body .cta--chat__wrapper {
+  display: block;
+  position: fixed;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  bottom: 0;
+  right: 0;
+  z-index: 20000; }
+
 body .l-herobanner {
   margin-top: 0;
   height: 100vh; }
@@ -3310,16 +3319,6 @@ body .l-herobanner {
       transform-origin: center center;
       transform: skewY(-10.9527deg) translateY(-18.89vw) translateX(-50%);
       width: 101.77vw; }
-  body .l-herobanner .cta--chat__wrapper {
-    display: block;
-    position: fixed;
-    height: 96px;
-    width: 96px;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    bottom: 0;
-    right: 0;
-    z-index: 10600; }
 
 /**
 *
@@ -3751,8 +3750,11 @@ body .accordion-clean .tabs-title > a[aria-selected="true"] {
   border-bottom: #db4b56 3px solid; }
 
 body .button {
-  font-family: "Graphik", "Helvetica Neue", Helvetica, Roboto, Arial, san-serif;
-  font-weight: 700; }
+  font-family: "Avenir", "Helvetica Neue", Helvetica, Roboto, Arial, san-serif;
+  font-weight: 700;
+  transition: all 0.25s ease-in-out; }
+  body .button:hover {
+    transform: translateY(-1px); }
   body .button.alert {
     background: #d21412;
     border-color: #D21412; }
@@ -3766,15 +3768,28 @@ body .button {
     background: #D21412;
     display: block;
     height: 64px;
+    line-height: 32px;
     width: 64px;
     position: relative;
-    transition: all 0.5s ease-in-out;
-    top: 50%;
-    right: 50%; }
-    body .button.round:hover {
-      transform: translateY(-1px); }
+    font-weight: normal;
+    font-size: 1.3rem; }
     body .button.round.inverted {
-      background: #ffffff; }
+      background: #ffffff;
+      color: #D21412; }
+  body .button.rounded {
+    border-radius: 32px;
+    background: #D21412;
+    display: block;
+    height: 64px;
+    line-height: 32px;
+    width: auto;
+    position: relative;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #ffffff; }
+    body .button.rounded.inverted {
+      background: #ffffff;
+      color: #D21412; }
 
 /**
 *

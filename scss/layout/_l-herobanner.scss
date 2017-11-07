@@ -5,6 +5,16 @@
 */
 body {
 
+  .cta--chat__wrapper {
+    display: block;
+    position: fixed;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    bottom: 0;
+    right: 0;
+    z-index: 20000;
+  }
+
   .l-herobanner {
     margin-top: 0;
     height: 100vh;
@@ -16,7 +26,7 @@ body {
     }
 
     &.home {
-      background-image: url($hero-home);
+      background-image: url("../assets/img/herobanner-home-lg.jpg");
       background-position: center center;
       background-attachment: fixed;
       background-size: cover;
@@ -154,17 +164,7 @@ body {
 
     } // inclines
 
-    .cta--chat__wrapper {
-      display: block;
-      position: fixed;
-      height: 96px;
-      width: 96px;
-      margin-right: 1rem;
-      margin-bottom: 1rem;
-      bottom: 0;
-      right: 0;
-      z-index: z("lagrange")+600;
-    }
+
 
   }
 

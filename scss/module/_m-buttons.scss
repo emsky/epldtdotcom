@@ -1,7 +1,13 @@
 body {
   .button {
-    font-family: $font-family--primary;
+    font-family: $font-family--secondary;
     font-weight: 700;
+    transition: all 0.25s ease-in-out;
+
+    &:hover {
+      transform: translateY(-1px);
+
+    }
 
     &.alert {
       background: rgba($primary,1);
@@ -22,19 +28,43 @@ body {
       background: $primary;
       display: block;
       height: 64px;
+      line-height: 32px;
       width: 64px;
       position: relative;
-      transition: all 0.5s ease-in-out;
-      top: 50%;
-      right: 50%;
-
-      &:hover {
-        transform: translateY(-1px);
-      }
+      font-weight: normal;
+      font-size: 1.3rem;
 
       &.inverted {
         background: $white;
+        color: $primary;
       }
     }
+
+    &.rounded {
+      border-radius: 32px;
+      background: $primary;
+      display: block;
+      height: 64px;
+      line-height: 32px;
+      width: auto;
+      position: relative;
+      font-size: 1rem;
+      font-weight: normal;
+      color: $white;
+
+      &.inverted {
+        background: $white;
+        color: $primary;
+      }
+    }
+
+
+      }
   }
-}
+
+  @media screen and (max-width: 39.9375em) {
+    // round chat button
+    .button {
+
+    }
+  }
