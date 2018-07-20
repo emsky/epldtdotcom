@@ -7,9 +7,10 @@
 		"uuidString": "8B227238-1F0E-43C9-92A6-27A18152E57E"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
@@ -18,6 +19,7 @@
 	"\/assets\/img\/avatar.jpg": {
 		"ft": 16384,
 		"iS": 1134,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/avatar.jpg",
 		"oF": 0,
@@ -28,6 +30,7 @@
 	"\/assets\/img\/bg-hero-managed-it.jpg": {
 		"ft": 16384,
 		"iS": 117652,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/bg-hero-managed-it.jpg",
 		"oF": 0,
@@ -38,6 +41,7 @@
 	"\/assets\/img\/bg-herobanner-careers.jpg": {
 		"ft": 16384,
 		"iS": 160809,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/bg-herobanner-careers.jpg",
 		"oF": 0,
@@ -48,6 +52,7 @@
 	"\/assets\/img\/bg-page-banner.jpg": {
 		"ft": 16384,
 		"iS": 92552,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/bg-page-banner.jpg",
 		"oF": 0,
@@ -58,6 +63,7 @@
 	"\/assets\/img\/bg-video-header-medium.jpg": {
 		"ft": 16384,
 		"iS": 281405,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/bg-video-header-medium.jpg",
 		"oF": 0,
@@ -68,6 +74,7 @@
 	"\/assets\/img\/bg-video-header-small.jpg": {
 		"ft": 16384,
 		"iS": 162190,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/bg-video-header-small.jpg",
 		"oF": 0,
@@ -78,6 +85,7 @@
 	"\/assets\/img\/featured-image-events.jpg": {
 		"ft": 16384,
 		"iS": 160542,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/featured-image-events.jpg",
 		"oF": 0,
@@ -88,6 +96,7 @@
 	"\/assets\/img\/featured-image-newsroom-big.jpg": {
 		"ft": 16384,
 		"iS": 275769,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/featured-image-newsroom-big.jpg",
 		"oF": 0,
@@ -120,6 +129,7 @@
 	"\/assets\/img\/hero-banner-career-single.jpg": {
 		"ft": 16384,
 		"iS": 132122,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/hero-banner-career-single.jpg",
 		"oF": 0,
@@ -130,6 +140,7 @@
 	"\/assets\/img\/hero-banner-image.jpg": {
 		"ft": 16384,
 		"iS": 781241,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/hero-banner-image.jpg",
 		"oF": 0,
@@ -140,6 +151,7 @@
 	"\/assets\/img\/herobanner-home-lg.jpg": {
 		"ft": 16384,
 		"iS": 195303,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/herobanner-home-lg.jpg",
 		"oF": 0,
@@ -304,6 +316,7 @@
 	"\/assets\/img\/solutions-product-benefits-02.jpg": {
 		"ft": 16384,
 		"iS": 173861,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/solutions-product-benefits-02.jpg",
 		"oF": 0,
@@ -314,6 +327,7 @@
 	"\/assets\/img\/solutions-product-benefits.jpg": {
 		"ft": 16384,
 		"iS": 3504,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/solutions-product-benefits.jpg",
 		"oF": 0,
@@ -324,6 +338,7 @@
 	"\/assets\/img\/solutions-product-thumb.jpg": {
 		"ft": 16384,
 		"iS": 81552,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/solutions-product-thumb.jpg",
 		"oF": 0,
@@ -334,6 +349,7 @@
 	"\/assets\/img\/thumb-news.jpg": {
 		"ft": 16384,
 		"iS": 44991,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/thumb-news.jpg",
 		"oF": 0,
@@ -344,6 +360,7 @@
 	"\/assets\/img\/thumb-white-papers.jpg": {
 		"ft": 16384,
 		"iS": 2506,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/thumb-white-papers.jpg",
 		"oF": 0,
@@ -360,30 +377,35 @@
 		"oS": 1
 		},
 	"\/assets\/video\/hero-banner-large.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/video\/hero-banner-large.html",
 		"oF": 0
 		},
 	"\/assets\/video\/hero-banner-medium.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/video\/hero-banner-medium.html",
 		"oF": 0
 		},
 	"\/assets\/video\/hero-banner-small.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/video\/hero-banner-small.html",
 		"oF": 0
 		},
 	"\/assets\/video\/hero-banner.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/video\/hero-banner.mp4",
 		"oF": 0
 		},
 	"\/assets\/video\/hero-banner.webm": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/video\/hero-banner.webm",
@@ -406,22 +428,24 @@
 		"oS": 1
 		},
 	"\/bower_components\/foundation-sites\/.bowerrc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.bowerrc",
 		"oF": 0
 		},
 	"\/bower_components\/foundation-sites\/.eslintrc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.eslintrc",
 		"oF": 0
 		},
 	"\/bower_components\/foundation-sites\/.github\/ISSUE_TEMPLATE.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -436,10 +460,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/foundation-sites\/.github\/PULL_REQUEST_TEMPLATE.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -454,12 +478,14 @@
 		"uCM": 0
 		},
 	"\/bower_components\/foundation-sites\/.sass-lint.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.sass-lint.yml",
 		"oF": 0
 		},
 	"\/bower_components\/foundation-sites\/.travis.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.travis.yml",
@@ -677,10 +703,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/foundation-sites\/code-of-conduct.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -703,6 +729,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/foundation-sites\/customizer\/config.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/customizer\/config.yml",
@@ -717,6 +744,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/foundation-sites\/customizer\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/customizer\/index.html",
@@ -1509,12 +1537,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/bower_components\/foundation-sites\/docslink.sh": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/foundation-sites\/docslink.sh",
-		"oF": 0
-		},
 	"\/bower_components\/foundation-sites\/js\/entries\/foundation-plugins.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2186,6 +2208,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/foundation-sites\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/LICENSE",
@@ -2200,10 +2223,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/foundation-sites\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -3244,19 +3267,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/bower_components\/foundation-sites\/scss\/prototype\/_typescale.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/bower_components\/foundation-sites\/scss\/prototype\/_typescale.scss",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/bower_components\/foundation-sites\/scss\/settings\/_settings.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3614,6 +3624,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/jquery\/AUTHORS.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/AUTHORS.txt",
@@ -3658,6 +3669,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/jquery\/dist\/jquery.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/dist\/jquery.min.map",
@@ -3684,6 +3696,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/jquery\/dist\/jquery.slim.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/dist\/jquery.slim.min.map",
@@ -3710,28 +3723,31 @@
 		"tS": 0
 		},
 	"\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.map",
 		"oF": 0
 		},
 	"\/bower_components\/jquery\/external\/sizzle\/LICENSE.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/external\/sizzle\/LICENSE.txt",
 		"oF": 0
 		},
 	"\/bower_components\/jquery\/LICENSE.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/LICENSE.txt",
 		"oF": 0
 		},
 	"\/bower_components\/jquery\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -4643,16 +4659,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/var\/fnToString.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/var\/fnToString.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/bower_components\/jquery\/src\/var\/getProto.js": {
 		"ft": 64,
 		"ma": 0,
@@ -4838,10 +4844,10 @@
 		"tS": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/animations.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -4856,10 +4862,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/classes.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -4874,10 +4880,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/configuration.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -4892,10 +4898,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/installation.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -4910,10 +4916,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/javascript.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -4928,10 +4934,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/readme.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -4946,10 +4952,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/transitions.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -4964,10 +4970,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/wow.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5002,16 +5008,17 @@
 		"tS": 0
 		},
 	"\/bower_components\/motion-ui\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/motion-ui\/LICENSE",
 		"oF": 0
 		},
 	"\/bower_components\/motion-ui\/meteor-README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5067,10 +5074,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/motion-ui\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5279,19 +5286,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/bower_components\/motion-ui\/src\/util\/_animation.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/bower_components\/motion-ui\/src\/util\/_animation.scss",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/bower_components\/motion-ui\/src\/util\/_args.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -5417,6 +5411,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/what-input\/docs\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/what-input\/docs\/index.html",
@@ -5453,6 +5448,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/what-input\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/what-input\/LICENSE",
@@ -5467,10 +5463,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/what-input\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5515,40 +5511,45 @@
 		"tS": 0
 		},
 	"\/bower_components\/what-input\/yarn.lock": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/what-input\/yarn.lock",
 		"oF": 0
 		},
 	"\/careers-application-personal-details.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/careers-application-personal-details.html",
 		"oF": 0
 		},
 	"\/careers-single.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/careers-single.html",
 		"oF": 0
 		},
 	"\/careers.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/careers.html",
 		"oF": 0
 		},
 	"\/CHANGELOG.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/CHANGELOG.html",
 		"oF": 0
 		},
 	"\/CHANGELOG.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5573,78 +5574,91 @@
 		"oS": 3
 		},
 	"\/fonts\/Avenir-Black.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Avenir-Black.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Avenir-BlackOblique.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Avenir-BlackOblique.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Avenir-Book.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Avenir-Book.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Avenir-BookOblique.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Avenir-BookOblique.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Avenir-Heavy.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Avenir-Heavy.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Avenir-HeavyOblique.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Avenir-HeavyOblique.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Avenir-Light.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Avenir-Light.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Avenir-LightOblique.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Avenir-LightOblique.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Avenir-Medium.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Avenir-Medium.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Avenir-MediumOblique.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Avenir-MediumOblique.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Avenir-Oblique.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Avenir-Oblique.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Avenir-Roman.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Avenir-Roman.ttf",
 		"oF": 0
 		},
 	"\/fonts\/fontawesome-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont.eot",
@@ -5661,204 +5675,238 @@
 		"prP": 0
 		},
 	"\/fonts\/fontawesome-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/fontawesome-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/fontawesome-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/FontAwesome.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/FontAwesome.otf",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-Bold.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-Bold.eot",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-Bold.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-Bold.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-Bold.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-Bold.woff",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-BoldItalic.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-BoldItalic.eot",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-BoldItalic.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-BoldItalic.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-BoldItalic.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-BoldItalic.woff",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-Light.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-Light.eot",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-Light.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-Light.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-Light.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-Light.woff",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-LightItalic.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-LightItalic.eot",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-LightItalic.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-LightItalic.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-LightItalic.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-LightItalic.woff",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-Medium.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-Medium.eot",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-Medium.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-Medium.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-Medium.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-Medium.woff",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-MediumItalic.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-MediumItalic.eot",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-MediumItalic.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-MediumItalic.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-MediumItalic.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-MediumItalic.woff",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-Regular.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-Regular.eot",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-Regular.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-Regular.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-Regular.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-Regular.woff",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-RegularItalic.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-RegularItalic.eot",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-RegularItalic.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-RegularItalic.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-RegularItalic.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-RegularItalic.woff",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-Thin.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-Thin.eot",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-Thin.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-Thin.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-Thin.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-Thin.woff",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-ThinItalic.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-ThinItalic.eot",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-ThinItalic.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-ThinItalic.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Graphik-ThinItalic.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Graphik-ThinItalic.woff",
@@ -5875,6 +5923,7 @@
 		"tS": 0
 		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
@@ -5919,6 +5968,7 @@
 		"tS": 0
 		},
 	"\/newsroom.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/newsroom.html",
@@ -5939,16 +5989,17 @@
 		"oS": 1
 		},
 	"\/page-solutions-managed-it.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-solutions-managed-it.html",
 		"oF": 0
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -6418,18 +6469,21 @@
 		"uL": 1
 		},
 	"\/scss\/layout\/hero-banner-large.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/layout\/hero-banner-large.html",
 		"oF": 0
 		},
 	"\/scss\/layout\/hero-banner-medium.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/layout\/hero-banner-medium.html",
 		"oF": 0
 		},
 	"\/scss\/layout\/hero-banner-small.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/layout\/hero-banner-small.html",
@@ -6618,6 +6672,7 @@
 		"uL": 1
 		},
 	"\/solutions.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/solutions.html",
@@ -6632,7 +6687,8 @@
 	"creationDate": 527068365,
 	"displayValue": "epldtdotcom-frontend",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-gavin"
+	"iconImageName": "meme-gavin",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -6640,6 +6696,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -7168,6 +7225,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -7199,6 +7260,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -7232,9 +7297,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -7264,6 +7329,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -7273,14 +7342,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -8384,7 +8445,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -8417,6 +8479,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -8428,6 +8491,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
@@ -8458,7 +8522,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -8490,13 +8555,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -8505,7 +8570,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -8525,7 +8591,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -8553,7 +8620,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
