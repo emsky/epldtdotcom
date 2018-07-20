@@ -1,0 +1,24 @@
+body {
+  .copyright {
+    background: $white;
+    font-size: 0.875rem;
+    padding: 2.000rem 0;
+    text-align: right;
+
+    p {
+      margin: 0;
+    }
+  }
+}
+/**
+*
+* SMALL ONLY
+*
+*/
+@media screen and (max-width: 39.9375em) {
+  body {
+    .copyright {
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+body {
+  .job-listing {
+    list-style: none;
+    margin-bottom: 2.000rem;
+    margin-left: 0;
+
+    li {
+      border-bottom: $border-color 1px solid;
+
+      a {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 1.250rem 0;
+
+        h3 {
+          color: $font-body-color;
+          flex-basis: 100%;
+          font-size: 1.125rem;
+          margin: 0;
+
+          span {
+            font-weight: 400;
+          }
+        }
+
+        span {
+          align-content: flex-start;
+          flex-basis: 25%;
+          font-size: 0.875rem;
+        }
+
+        i {
+          padding-right: 0.250rem;
+        }
+
+        &:hover {
+          h3 {
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+}

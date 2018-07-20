@@ -1,0 +1,17 @@
+body {
+  .meta {
+    list-style: none;
+    margin-left: 0;
+
+    li {
+      display: inline-block;
+      font-size: 0.875rem;
+      padding-right: 0.625rem;
+
+      i,
+      img {
+        padding-right: 0.250rem;
+      }
+    }
+  }
+}

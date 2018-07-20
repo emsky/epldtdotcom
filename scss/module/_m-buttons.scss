@@ -1,0 +1,70 @@
+body {
+  .button {
+    font-family: $font-family--secondary;
+    font-weight: 700;
+    transition: all 0.25s ease-in-out;
+
+    &:hover {
+      transform: translateY(-1px);
+
+    }
+
+    &.alert {
+      background: rgba($primary,1);
+      border-color: $primary;
+
+      &:hover {
+        background: rgba($primary,0.9);
+      }
+    }
+
+    &.large {
+      font-size: 0.875rem;
+      padding: 1.250rem 2.000rem;
+    }
+
+    &.round {
+      border-radius: 50%;
+      background: $primary;
+      display: block;
+      height: 64px;
+      line-height: 32px;
+      width: 64px;
+      position: relative;
+      font-weight: normal;
+      font-size: 1.3rem;
+
+      &.inverted {
+        background: $white;
+        color: $primary;
+      }
+    }
+
+    &.rounded {
+      border-radius: 32px;
+      background: $primary;
+      display: block;
+      height: 64px;
+      line-height: 32px;
+      width: auto;
+      position: relative;
+      font-size: 1rem;
+      font-weight: normal;
+      color: $white;
+
+      &.inverted {
+        background: $white;
+        color: $primary;
+      }
+    }
+
+
+      }
+  }
+
+  @media screen and (max-width: 39.9375em) {
+    // round chat button
+    .button {
+
+    }
+  }

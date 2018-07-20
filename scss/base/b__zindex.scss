@@ -1,0 +1,36 @@
+//** -----------------------------
+//   Sassy Z-Index Handling
+//   For Complex Layouts
+//   Author: Ellesa Sabasaje
+//** -----------------------------
+
+// A map of z layers
+// All z-index values should be set here
+
+$z-layers: (
+  'default':             1,
+  'below-surface':    2500,
+  'surface':          3000,
+  'tooltip':          3250,
+  'above-surface':    3500,
+  'panes':            3500,
+  'scrims':           3750,
+  'dropdown':         4000,
+  'modal':            5000,
+  'lagrange':         10000,   // when a component has to be above everything else
+  'bottomless-pit':  -10000    // when a component has to be really really LOW
+);
+
+// A function helper to avoid having to type `map-get($z-layers, ...)`
+// ---
+// @param [string] $component: the layer to use
+// ---
+// @return [number] | [null]
+
+@function z($layer) {
+  @if not map-has-key($z-layers, $layer) {
+    @warn "No z-index found in $z-layers map for `#{$layer}`. Property omitted.";
+  }
+
+  @return map-get($z-layers, $layer);
+}

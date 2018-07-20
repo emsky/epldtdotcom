@@ -1,0 +1,83 @@
+body {
+  font-family: $font-family--primary;
+  font-weight: 100;
+
+  a,
+  dl,
+  dt,
+  fieldset,
+  input,
+  label,
+  li,
+  p,
+  small,
+  span,
+  td,
+  textarea,
+  th,
+  time,
+  tr {
+    font-family: $font-family--primary;
+
+    small {
+      color: $font-header-color;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $font-family--secondary;
+    color: $font-header-color;
+    font-weight: 700;
+  }
+
+  a,
+  dl,
+  dt,
+  fieldset,
+  input,
+  label,
+  li,
+  p,
+  small,
+  span,
+  td,
+  textarea,
+  th,
+  time,
+  tr {
+    color: $font-body-color;
+  }
+
+  a {
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  input {
+    &[type="email"],
+    &[type="tel"],
+    &[type="text"] {
+      background: $gray;
+    }
+  }
+
+  textarea {
+    background: $gray;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: $font-header-color;
+  }
+
+  video {
+    margin: 0;
+    padding: 0;
+  }
+}

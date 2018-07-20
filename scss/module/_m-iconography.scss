@@ -1,0 +1,525 @@
+.icon-wrapper {
+  display: block;
+  position: relative;
+  margin: 0 auto 16px;
+  float: left;
+}
+
+div[class$="__circle"] {
+  position: relative;
+  height: 140px;
+  width: 140px;
+  border-radius: 75px;
+}
+
+.icon--managed-it__circle {
+  background: $color--orange5;
+}
+
+.icon--data-center__circle {
+  background: $color--darkblue5;
+}
+
+.icon--analytics__circle {
+  background: $color--yellow5;
+}
+
+.icon--digital-engagement__circle {
+  background: $color--purple5;
+}
+
+.icon--cyber-security__circle {
+  background: $color--green5;
+}
+
+.icon--cloud__circle {
+  background: $color--blue5;
+}
+
+div[class$="__circle"]:hover {
+  transition: background 0.2s $easing--primary;
+}
+
+.icon--managed-it__circle:hover {
+  background: $color--orange1;
+}
+
+.icon--data-center__circle:hover {
+  background: $color--darkblue1;
+}
+
+.icon--analytics__circle:hover {
+  background: $color--yellow1;
+}
+
+.icon--digital-engagement__circle:hover {
+  background: $color--purple1;
+}
+
+.icon--cyber-security__circle:hover {
+  background: $color--green1;
+}
+
+.icon--cloud__circle:hover {
+  background: $color--blue1;
+}
+
+div[class$="__circle"]:after {
+  position: absolute;
+  box-sizing: content-box;
+  pointer-events: none;
+  z-index: z("surface") + 100;
+  content: '';
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  top: -4px;
+  left: -4px;
+  padding: 4px;
+  background: transparent;
+  transition: transform 0.2s, opacity 0.2s;
+  transform: scale(1.2);
+  opacity: 0;
+}
+
+.icon--managed-it__circle:after {
+  box-shadow: 0 0 0 2px $color--orange3;
+}
+
+.icon--data-center__circle:after {
+  box-shadow: 0 0 0 2px $color--darkblue3;
+}
+
+.icon--analytics__circle:after {
+  box-shadow: 0 0 0 2px $color--yellow3;
+}
+
+.icon--digital-engagement__circle:after {
+  box-shadow: 0 0 0 2px $color--purple3;
+}
+
+.icon--cyber-security__circle:after {
+  box-shadow: 0 0 0 2px $color--green3;
+}
+
+.icon--cloud__circle:after {
+  box-shadow: 0 0 0 2px $color--blue3;
+}
+
+div[class$="__circle"]:hover:after {
+  transform: scale(1);
+  opacity: 1;
+}
+/* SVG ANIMATIONS: MANAGED IT
+*/
+.icon--managed-it__circle:hover #hand {
+  fill: $color--orange5;
+  transition: all 0.9s $easing--primary;
+}
+
+.icon--managed-it__circle:hover #small-axle {
+  fill: $color--orange5;
+  cx: 24;
+  transition: all 0.4s $easing--primary;
+}
+
+.icon--managed-it__circle:hover #big-axle {
+  fill: $color--orange5;
+  transition: all 0.4s $easing--primary;
+}
+
+.icon--managed-it__circle:hover #big-gear {
+  transform-origin: center center;
+  animation: rotateForward 1.1s $easing--primary;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.icon--managed-it__circle:hover #small-gear {
+  transform-origin: center center;
+  animation: rotateBackward 1.1s $easing--primary;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+/* KEYFRAMES: MANAGED IT
+*/
+@keyframes rotateForward {
+  100% {
+    transform: rotate(180deg);
+    fill: #FFFFFF;
+  }
+}
+@keyframes rotateBackward {
+  100% {
+    transform: rotate(-180deg);
+    fill: #FFFFFF;
+  }
+}
+/* ANIMATIONS: DATA CENTER
+*/
+.icon--data-center__circle:hover [id^="block-"] {
+  transition: all 0.8s $easing--primary;
+}
+
+.icon--data-center__circle:hover #block-one {
+  fill: #fff;
+}
+
+.icon--data-center__circle:hover #block-one-display,
+.icon--data-center__circle:hover #block-one-led {
+  fill: $color--darkblue3;
+}
+
+.icon--data-center__circle:hover #block-two {
+  fill: $color--darkblue4;
+  transition-delay: 0.1s;
+}
+
+.icon--data-center__circle:hover #block-two-display,
+.icon--data-center__circle:hover #block-two-led {
+  fill: #fff;
+}
+
+.icon--data-center__circle:hover #block-three {
+  fill: $color--darkblue2;
+  transition-delay: 0.2s;
+}
+
+.icon--data-center__circle:hover #block-four {
+  fill: #fff;
+  transition-delay: 0.3s;
+}
+
+.icon--data-center__circle:hover #block-four-display,
+.icon--data-center__circle:hover #block-four-led {
+  fill: $color--darkblue2;
+  transition-delay: 0.4s;
+}
+
+.icon--data-center__circle:hover #stem-left-node {
+  fill: #fff;
+  animation: flicker 0.1s linear 5;
+}
+
+.icon--data-center__circle:hover #stem-middle-node {
+  fill: #fff;
+  animation: flicker 0.05s linear 5;
+  animation-delay: 0.3s;
+}
+
+.icon--data-center__circle:hover #stem-right-node {
+  fill: #fff;
+  animation: flicker 0.1s linear 5;
+  animation-delay: 0.6s;
+}
+/* KEYFRAMES: DATA CENTER
+*/
+@keyframes flicker {
+  50% {
+    opacity: 0;
+  }
+}
+/* ANIMATIONS: ANALYTICS
+*/
+.icon--analytics__circle [id^="graph-"] {
+  transform-origin: center bottom;
+  transform: scaleY(0.8);
+  transition: all 0.9s $easing--primary;
+}
+
+.icon--analytics__circle:hover #graph-one {
+  fill: #fff;
+  transform: scaleY(1.1);
+}
+
+.icon--analytics__circle:hover #graph-two {
+  fill: $color--yellow5;
+  transform: scaleY(1.1);
+}
+
+.icon--analytics__circle:hover #graph-three {
+  fill: $color--yellow4;
+  transform: scaleY(1);
+}
+
+.icon--analytics__circle:hover #graph-four {
+  fill: #fff;
+  transform: scaleY(1.1);
+}
+
+.icon--analytics__circle [id^="pie-"] {
+  transition: all 0.9s $easing--primary;
+}
+
+.icon--analytics__circle:hover #pie-large {
+  fill: #fff;
+}
+
+.icon--analytics__circle:hover #pie-small-middle {
+  fill: $color--yellow2;
+}
+
+.icon--analytics__circle:hover #pie-small-sides {
+  fill: $color--yellow4;
+}
+
+.icon--analytics__circle:hover #line-graph {
+  fill: $color--yellow2;
+}
+
+.icon--analytics__circle:hover #joints {
+  fill: #fff;
+}
+/* ANIMATIONS: DIGITAL ENGAGEMENT
+*/
+/* init */
+.icon--digital-engagement__circle [id^="edge-"],
+.icon--digital-engagement__circle [id^="opp-"],
+.icon--digital-engagement__circle [id^="skip-"] {
+  stroke: $color--purple3;
+  transition: stroke 1s $easing--primary;
+}
+
+.icon--digital-engagement__circle:hover [id^="edge-"] {
+  animation: draw 3s $easing--primary;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transition-delay: 2s;
+  stroke: #fff;
+}
+
+.icon--digital-engagement__circle:hover [id^="opp-"] {
+  animation: draw 2s $easing--primary;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  transition-delay: 2s;
+  stroke: #fff;
+}
+
+.icon--digital-engagement__circle:hover [id^="skip-"] {
+  animation: draw 1s $easing--primary;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  transition-delay: 2s;
+  stroke: #fff;
+}
+
+.icon--digital-engagement__circle:hover #node-1,
+.icon--digital-engagement__circle:hover #node-4 {
+  fill: #fff;
+  animation: flicker 0.15s $easing--secondary;
+  animation-iteration-count: 4;
+  animation-fill-mode: forwards;
+}
+
+.icon--digital-engagement__circle:hover #node-2,
+.icon--digital-engagement__circle:hover #node-5 {
+  fill: #fff;
+  animation: flicker 0.15s $easing--secondary;
+  animation-iteration-count: 4;
+  animation-fill-mode: forwards;
+  animation-delay: 0.3s;
+}
+
+.icon--digital-engagement__circle:hover #node-3,
+.icon--digital-engagement__circle:hover #node-6 {
+  fill: #fff;
+  animation: flicker 0.15s $easing--secondary;
+  animation-iteration-count: 4;
+  animation-fill-mode: forwards;
+  animation-delay: 0.4s;
+}
+
+.icon--digital-engagement__circle:hover [id$="-bg"] {
+  transition: fill 1s $easing--primary;
+  fill: $color--purple1;
+}
+/* KEYFRAMES: DIGITAL ENGAGEMENT
+*/
+@keyframes draw {
+  50% {
+    stroke-dashoffset: 82;
+    stroke-dasharray: 82;
+  }
+}
+/* SVG ANIMATIONS: CYBER SECURITY
+*/
+/* init */
+/* lock is closed on page load */
+.icon--cyber-security #lock-handle {
+  transform: translateY(3px);
+  transition: all 0.5s $easing--primary;
+}
+
+.icon--cyber-security #line-1,
+.icon--cyber-security #line-2,
+.icon--cyber-security #shield-border,
+.icon--cyber-security__circle [id^="node-"] {
+  transition: all 1.5s $easing--primary;
+}
+
+.icon--cyber-security__circle [id^="letter-"],
+.icon--cyber-security__circle [id^="pwd-oval-"] {
+  transition: all 0.5s $easing--primary;
+}
+$id-slug: pwd-oval !default;
+$id-slug-2: letter !default;
+$delay: 0.1s;
+@for $i from 1 through 5 {
+  ##{$id-slug}-#{$i} {
+    transition-delay: $delay * $i;
+  }
+
+  ##{$id-slug-2}-#{$i} {
+    transition-delay: ($delay + 0.5s) * $i;
+  }
+}
+/* HOVER: unlock */
+.icon--cyber-security:hover #lock-handle {
+  animation: unlock 1.5s linear;
+  animation-iteration-count: 1;
+  animation-delay: 0;
+}
+/* HOVER: move shimmer */
+.icon--cyber-security__circle:hover #shine-1 {
+  transition: all 0.5s $easing--primary;
+  animation: shimmer 1.6s $easing--secondary;
+  animation-iteration-count: 1;
+  animation-delay: 0;
+}
+
+.icon--cyber-security__circle:hover #shine-2 {
+  transition: all 0.5s $easing--primary;
+  animation: shimmer 1.3s $easing--primary;
+  animation-iteration-count: 1;
+  animation-delay: 0;
+}
+/* HOVER: Change stroke color for lines */
+.icon--cyber-security__circle:hover #line-1,
+.icon--cyber-security__circle:hover #line-2 {
+  stroke: white;
+  stroke-width: 6;
+}
+/* HOVER: Scale nodes by 1.2 */
+.icon--cyber-security__circle:hover [id^="node-"] {
+  fill: white;
+}
+/* HOVER: Change border color */
+.icon--cyber-security__circle:hover #shield-border {
+  fill: white;
+}
+/* HOVER: Unlock and show password */
+.icon--cyber-security__circle:hover [id^="pwd-oval-"] {
+  opacity: 0;
+}
+
+.icon--cyber-security__circle:hover [id^="letter-"] {
+  opacity: 1;
+}
+/* KEYFRAMES: CYBER SECURITY
+*/
+@keyframes shimmer {
+  25% {
+    transform: translateX(150%) scaleX(6);
+    opacity: 0;
+  }
+}
+@keyframes unlock {
+  50% {
+    transform: translateY(0);
+  }
+}
+/* SVG ANIMATIONS: CLOUD
+*/
+.icon--cloud__circle #chip-mask,
+.icon--cloud__circle #cloud,
+.icon--cloud__circle [id^="chip-node-"],
+.icon--cloud__circle [id^="led-"],
+.icon--cloud__circle [id^="light-"],
+.icon--cloud__circle [id^="tail-"] {
+  transition: all 1s $easing--primary;
+}
+/* CSS ANIMATION CONTROLS: CLOUD */
+#led-7,
+#led-8,
+#led-9 {
+  animation-delay: 0;
+}
+
+#led-4,
+#led-5,
+#led-6 {
+  animation-delay: 0.25s;
+}
+
+#led-1,
+#led-2,
+#led-3 {
+  animation-delay: 0.5s;
+}
+
+#chip-node-1,
+#chip-node-4 {
+  animation-delay: 0;
+}
+
+#chip-node-2,
+#chip-node-5 {
+  animation-delay: 0.25s;
+}
+
+#chip-node-3,
+#chip-node-6 {
+  animation-delay: 0.5s;
+}
+
+.icon--cloud__circle:hover #chip-mask,
+.icon--cloud__circle:hover #cloud {
+  fill: #FFFFFF;
+  stroke: #FFFFFF;
+}
+
+.icon--cloud__circle:hover #chip,
+.icon--cloud__circle:hover [id^="light-"] {
+  fill: $color--blue1;
+}
+
+.icon--cloud__circle:hover [id^="chip-node-"] {
+  fill: $color--blue3;
+}
+
+.icon--cloud__circle:hover [id^="tail-"] {
+  fill: #FFFFFF;
+}
+
+.icon--cloud__circle:hover [id^="chip-node-"],
+.icon--cloud__circle:hover [id^="led-"] {
+  animation: blink 0.75s $easing--primary;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.icon--cloud__circle:hover [id^="light-"] {
+  animation: flicker 0.1s linear 5;
+}
+
+.icon--cloud__circle:hover #light-mid {
+  animation-delay: 0.25s;
+}
+
+.icon--cloud__circle:hover #light-right {
+  animation-delay: 0.5s;
+}
+/* KEYFRAMES: CLOUD
+*/
+@keyframes blink {
+  50% {
+    fill: $color--blue1;
+  }
+
+  100% {
+    fill: $color--blue4;
+  }
+}

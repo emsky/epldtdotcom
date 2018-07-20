@@ -1,0 +1,71 @@
+.center-vertically {
+  position: absolute;
+  left: 50%;
+  transform: translateY(-50%);
+}
+.center-horizontally {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.dead-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* Force hardware acceleration, Warp speed ahead! */
+.anim {
+	-webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  	-webkit-perspective: 1000;
+	/* more specific animation properties here */
+}
+
+/* Reusable Styles */
+
+.soft-shadow {
+  box-shadow: $shadow-level-mid;
+
+  &:hover {
+    box-shadow: $shadow-level-mid-darker;
+  }
+}
+
+/* Reusable Transition Effects */
+
+.sliding-middle-out {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:after {
+  	content: '';
+  	display: block;
+  	margin: auto;
+  	height: 3px;
+  	width: 0px;
+  	background: transparent;
+  	transition: width .5s $easing--primary, background-color .25s ease;
+  }
+
+  &:hover:after {
+  	width: 100%;
+  	background: $primary;
+  }
+
+  &.inverted {
+      color: $white;
+
+    &:hover:after {
+      width: 100%;
+      background: $white;
+    }
+  }
+
+}

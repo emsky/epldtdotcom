@@ -1,0 +1,32 @@
+body {
+  .recent-news {
+    background: $gray;
+    padding: 5.000rem 0 1.000rem;
+  }
+}
+/**
+*
+* MEDIUM ONLY
+*
+*/
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  body {
+    .recent-news {
+      padding-left: 0.750rem;
+      padding-right: 0.750rem;
+    }
+  }
+}
+/**
+*
+* SMALL ONLY
+*
+*/
+@media screen and (max-width: 39.9375em) {
+  body {
+    .recent-news {
+      padding-left: 0.750rem;
+      padding-right: 0.750rem;
+    }
+  }
+}

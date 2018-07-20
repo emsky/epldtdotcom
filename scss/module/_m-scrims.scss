@@ -1,0 +1,83 @@
+/**
+*
+*  SCRIMS AND OVERLAYS
+*
+* Scrims adds different overlay color to images
+* It also adds zooming effect on the image
+*
+*/
+.scrims {
+  overflow: hidden;
+  position: relative;
+
+  .scrims-title {
+    font-size: 1.125rem;
+    margin-bottom: 0;
+
+    &.featured {
+      font-size: 2.000rem;
+    }
+  }
+
+  .scrims-content {
+    display: block;
+    bottom: 0;
+    padding: 3.000rem 2.000rem 1.000rem;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: z("surface") + 50;
+  }
+
+  .scrims-overlay {
+    background: rgba(0, 0, 0, 0) linear-gradient(180deg, transparent 0%, #000 100%) repeat scroll 0 0;
+    bottom: 0;
+    display: block;
+    opacity: 0.8;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: z("above-surface");
+  }
+
+  span {
+    color: $white;
+    bottom: 1.250rem;
+    left: 1.125rem;
+    position: absolute;
+    text-transform: uppercase;
+    z-index: z("above-surface");
+  }
+
+  .category {
+    color: rgba($white,0.8);
+  }
+
+  a {
+    color: $white;
+  }
+
+  img {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s linear;
+  }
+
+  &:hover {
+    img {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+}
+
+.overlay--primary {
+  background: url($pattern--dots) #D40008;
+  height: 100%;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+}
